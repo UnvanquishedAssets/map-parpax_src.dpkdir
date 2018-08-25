@@ -1,3 +1,7 @@
+// --------------------
+// textures/parpax_pk01
+// --------------------
+
 textures/parpax_pk01/door01b_green_norad
 {
 	qer_editorImage     textures/shared_pk01_src/door01b_p

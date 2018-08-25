@@ -1,3 +1,7 @@
+// -------------------
+// textures/parpax_exm
+// -------------------
+
 textures/parpax_exm/base1_nonsolid
 {
 	qer_editorImage     textures/shared_exm_src/base1_p
