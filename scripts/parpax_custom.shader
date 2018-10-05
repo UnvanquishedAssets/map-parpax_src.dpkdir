@@ -20,7 +20,29 @@ textures/parpax_custom/squarelamp_white_10k
 	}
 }
 
-textures/parpax_custom/elebutton_down_s
+textures/parpax_custom/squarelamp_white_5k
+{
+	surfaceparm nomarks
+	q3map_surfacelight 5000
+	q3map_lightimage textures/parpax_custom/squarelamp_white.blend.tga
+	qer_editorimage textures/parpax_custom/squarelamp_white.tga
+
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/parpax_custom/squarelamp_white.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/parpax_custom/squarelamp_white.blend.tga
+		blendfunc GL_ONE GL_ONE
+	}
+}
+
+textures/parpax_custom/flare_orange
 {
 	qer_editorimage textures/parpax_custom/elebutton.png
 	surfaceparm nomarks
