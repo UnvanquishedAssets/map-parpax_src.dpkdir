@@ -245,7 +245,7 @@ The following people and projects have made this map possible. Thanks to ...
 
 - Dark Legion Development (Tremulous) and Unvanquished Developement
 - id Software for their open source releases of game engines
-- all people who worked on ioquake3 and the daemon engine
+- all people who worked on ioquake3 and derived engines
 - Supertanker for his crazy elevators on spacetracks
 - Yves 'evillair' Allaire (http://evillair.net/) for his awesome texture sets
 - Randy 'ydnar' Redding (http://shaderlab.com/) for q3map2 and his textures

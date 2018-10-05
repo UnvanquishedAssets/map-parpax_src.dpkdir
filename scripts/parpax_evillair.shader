@@ -1,3 +1,23 @@
+textures/parpax_evillair/e6xgratebasic_s
+{
+	qer_editorimage textures/parpax_evillair/e6xgratebasic.tga
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm metalsteps
+	cull none
+
+	{
+		map textures/parpax_evillair/e6xgratebasic.tga
+		alphafunc GE128
+		depthwrite
+	}
+	{
+		map $lightmap
+		depthfunc equal
+		blendfunc filter
+	}
+}
+
 textures/parpax_evillair/eq2lt_stepsidelight_4k
 {
 	surfaceparm nomarks
@@ -36,26 +56,6 @@ textures/parpax_evillair/e6tinylight_s_4k
 	{
 		map textures/parpax_evillair/e6tinylight_blend.tga
 		blendfunc add
-	}
-}
-
-textures/parpax_evillair/e6xgratebasic_s
-{
-	qer_editorimage textures/parpax_evillair/e6xgratebasic.tga
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm metalsteps
-	cull none
-
-	{
-		map textures/parpax_evillair/e6xgratebasic.tga
-		alphafunc GE128
-		depthwrite
-	}
-	{
-		map $lightmap
-		depthfunc equal
-		blendfunc filter
 	}
 }
 
@@ -576,28 +576,6 @@ textures/parpax_evillair/eq2_baselt03_blue_3k
 	}
 	{
 		map textures/parpax_evillair/eq2_baselt03_blue.blend.jpg
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
-textures/parpax_evillair/eq2lt_clight_8k
-{
-	surfaceparm nomarks
-	q3map_surfacelight 8000
-	q3map_lightimage textures/parpax_evillair/eq2_32caplight.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_32caplight.tga
-
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/parpax_evillair/eq2_32caplight.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map textures/parpax_evillair/eq2_32caplight.blend.tga
 		blendfunc GL_ONE GL_ONE
 	}
 }
