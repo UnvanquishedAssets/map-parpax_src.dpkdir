@@ -45,13 +45,6 @@ This map has been made with free open source software only:
     Q3Map2      (http://shaderlab.com/q3map2/)
     VIM         (http://www.vim.org/)
 
-The release quality compile for Tremulous is done with the following settings:
-
-    [q3map2] -meta -custinfoparms -samplesize 8 [MapFile]
-    [q3map2] -vis -saveprt [MapFile]
-    [q3map2] -light -fast -shade -dirty -patchshadows -samples 3 -samplesize 8
-             -bouncegrid -bounce 16 -cpma -scale 1.1 [MapFile]
-
 
 
   +--------+
@@ -109,16 +102,8 @@ textures/parpax_ex/*
              The author also grants the following modifications:
              - You may edit any shader/material file (.shader/.mtr file) as you
                see fit.
-             - You may change the color of any "texturename.blend.tga/.jpg" or
+             - You may change the color of any "texturename.blend.png/.jpg" or
                hue to fit the style of your map.
-
-             In an email from evillair to Tremulous developer Timbo he said that
-             he would release his texture sets under the CC-BY-SA-2.5 license
-             exclusively for the Tremulous project. Even though I don't know if
-             this is even possible it should probably mean that the textures may
-             be altered and used commercially as long as they are distributed as
-             a part of the Tremulous project.
-             (http://tremulous.net/forum/index.php?topic=12400.msg183334#msg183334)
     
     Notes  : scripts/parpax_ex.shader is a modified .mtr file.
 
@@ -128,6 +113,29 @@ textures/parpax_ex/*
              eq2_baselt03b_blue.jpg is a copy of eq2_baselt03b.jpg with modified hue
              eq2_baselt03b_blue.blend.jpg is a copy of eq2_baselt03b.blend.jpg with modified hue
     
+    Source : http://www.evillair.net/v2/index.php?option=com_content&task=view&id=28&Itemid=43
+
+
+textures/parpax_exm/*
+
+    Author : Yves 'evillair' Allaire (http://evillair.net/)
+             Modifications by Unvanquished Development (http://unvanquished.net/)
+
+    License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+             (https://creativecommons.org/licenses/by-nc-nd/3.0/)
+
+             The author granted Unvanquished Development to make derivate works
+             of his textures.
+
+             Unvanquished Development claims no copyright for these textures.
+             
+             If you use them in your own project, atrribute the original author
+             but also leave a notice that says that they have been altered with
+             his explicit permission.
+
+    Changes: The textures in this set are merely mashups of evillairs ex
+             textures that should resemble textures in his eq2 set.
+
     Source : http://www.evillair.net/v2/index.php?option=com_content&task=view&id=28&Itemid=43
 
 
@@ -171,6 +179,11 @@ textures/parpax_trak5/*
     Author : Georges 'TRaK' Grondin (http://trak.mercenariesguild.net/)
 
     License: MIT("X11") license
+
+    Changes: The normal maps (*_local.png) have been converted by using the
+             inverted alpha channel as the blue channel and removing the alpha
+             channel. The imagemagick command was:
+             convert <old> -channel b -fx "1.0 - u.a*1.0" -alpha off <new>
 
     Source : http://trak.mercenariesguild.net/node/3
 
@@ -272,6 +285,18 @@ sounds/parpax/elevator.wav
     - Lights have been scaled up by 10%.
     - Probably a lot of bugfixes and minor improvments that I forgot about.
 
+01.03.2013 / Delta 1
+    - Most textures have been replaced with modern textures that include normal
+      and specular maps
+    - Alternative layout has been removed
+    - Lower and upper storage are connected by a hole in the floor (thanks to
+      Meisseli)
+    - Human default has been weakened in several ways, including another
+      entrance towards D-stairs (thanks to clans DDOS and pk for their scrim)
+    - Lower storage and O-stairs have been connected with a short path
+    - The girders at the upper ends of the ventilation shafts now allow tyrants
+      to attack
+
 
 
   +---------+
@@ -282,12 +307,13 @@ The following people and projects have made this map possible. Thanks to ...
 
 - Dark Legion Development (Tremulous) and Unvanquished Developement
 - id Software for their open source releases of game engines
-- all people who worked on ioquake3 and derived engines such as XreaL
-- Supertanker for his crazy elevators on spacetracks
-- Yves 'evillair' Allaire (http://evillair.net/) for his awesome texture sets
+- all people who worked on ioquake3
+- Tr3B for the XreaL renderer
 - Randy 'ydnar' Redding (http://shaderlab.com/) for q3map2 and his textures
-- Philip 'Blazeeer' Klevestav for his textures
 - the people at http://www.alientrap.org for NetRadiant
+- Yves 'evillair' Allaire (http://evillair.net/) for his awesome texture sets
+- Philip 'Blazeeer' Klevestav for his textures
+- Supertanker for his crazy elevators on spacetracks
 - the people behind http://www.freesound.org for their free sound library
 - the alpha testing crew: 'Biest', 'mx' and 'mrQuGel'
 - everyone hwo participated in beta testing by voting my map or reporting bugs,

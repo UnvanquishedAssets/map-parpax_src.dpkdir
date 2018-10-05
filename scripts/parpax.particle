@@ -4,7 +4,7 @@ parpax/sparks
 	{
 		particle
 		{
-			shader sync gfx/sprites/spark.tga
+			shader sync gfx/sprites/spark.png
 
 			velocityType static
 			velocityDir linear
