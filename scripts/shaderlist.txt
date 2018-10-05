@@ -1,10 +1,5 @@
-parpax_concept
 parpax_custom
 parpax_evillair
 parpax_ex
 parpax_exm
 parpax_pk01
-parpax_pk02
-parpax_space
-parpax_trak4
-parpax_trak5
