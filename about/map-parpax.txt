@@ -72,8 +72,8 @@ scripts/parpax_custom.shader
 scripts/parpax_ex.shader
 scripts/parpax_exm.shader
 scripts/parpax_pk01.shader
-sounds/parpax/crane.wav
-sounds/parpax/humming.wav
+sounds/parpax/crane.flac
+sounds/parpax/humming.flac
 textures/parpax_custom_src/*
 
     Author : Maximilian 'Viech' Stahlberg
@@ -86,7 +86,7 @@ textures/parpax_custom_src/*
 
 
 scripts/parpax_evillair.shader
-textures/parpax_evillair/*
+textures/parpax_evillair_src/*
 
     Author : Yves 'evillair' Allaire (http://evillair.net/)
 
@@ -103,7 +103,13 @@ textures/parpax_evillair/*
     Source : http://www.evillair.net/v2/index.php?option=com_content&task=view&id=28&Itemid=43
 
 
-textures/parpax_philipk/*
+scripts/parpax_pkw.shader
+    Author : Thomas 'illwieckz' Debesse (http://gg.illwieckz.net)
+
+    License: CC0 1.0 Universal Public Domain Dedication
+             (https://creativecommons.org/publicdomain/zero/1.0/)
+
+textures/parpax_pkw_src/*
 
     Author : Philip 'Blazeeer' Klevestav (http://www.philipk.net/)
 
@@ -115,7 +121,7 @@ textures/parpax_philipk/*
     Source : http://www.philipk.net/
 
 
-sounds/parpax/beep.wav
+sounds/parpax/beep.flac
 
     Author : JustinBW (http://www.justinwasack.com)
  
@@ -125,8 +131,8 @@ sounds/parpax/beep.wav
     Source : http://www.freesound.org/people/JustinBW/sounds/70106/
 
 
-sounds/parpax/elevator_stop.wav
-sounds/parpax/elevator.wav
+sounds/parpax/elevator_stop.flac
+sounds/parpax/elevator.flac
 
     Author : TwistedLemon (www.twistedlemon.nl)
  
@@ -166,7 +172,7 @@ sounds/parpax/elevator.wav
     - Advanced marauders (and crouching humans) are now able to enter long hall
       via pipe shaft in order to defeat campy human bases there (thanks to
       Ingar).
-    - Added "steps" in elevator shaft so goons can exit it (forgot hwo proposed
+    - Added "steps" in elevator shaft so goons can exit it (forgot who proposed
       this, sorry!).
     - Some textures have been replaced with the goal to have an independent .pk3
       file eventually.
@@ -254,9 +260,9 @@ The following people and projects have made this map possible. Thanks to ...
 - Supertanker for his crazy elevators on spacetracks
 - the people behind http://www.freesound.org for their free sound library
 - the alpha testing crew: 'Biest', 'mx' and 'mrQuGel'
-- everyone hwo participated in beta testing by voting my map or reporting bugs,
+- everyone who participated in beta testing by voting my map or reporting bugs,
   critics or improvement ideas
-- everyone hwo works on free open source software or creates free media. You
+- everyone who works on free open source software or creates free media. You
   make the world a better place!
 
 

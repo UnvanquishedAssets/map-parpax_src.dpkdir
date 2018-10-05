@@ -7,28 +7,28 @@ textures/parpax_evillair/eq2lt_bmtl03light_500
 {
 	surfaceparm nomarks
 	q3map_surfacelight 500
-	qer_editorimage textures/parpax_evillair/eq2_bmtl_03_light.tga
-	q3map_lightimage textures/parpax_evillair/eq2_bmtl_03_light.blend.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_bmtl_03_light_d
+	q3map_lightImage textures/parpax_evillair_src/eq2_bmtl_03_light_a
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_bmtl_03_light.tga
+		map textures/parpax_evillair_src/eq2_bmtl_03_light_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_bmtl_03_light.blend.tga
+		map textures/parpax_evillair_src/eq2_bmtl_03_light_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/parpax_evillair/e6trim_bsrlight_s_1k
+textures/parpax_evillair/e6trim_bsrlight_1k
 {
-	qer_editorimage textures/parpax_evillair/e6trim_bsrlight.tga
-	q3map_lightimage textures/parpax_evillair/e6trim_bsrlight_blend.tga
+	qer_editorImage textures/parpax_evillair_src/e6trim_bsrlight_d
+	q3map_lightImage textures/parpax_evillair_src/e6trim_bsrlight_blend_d
 	surfaceparm nomarks
 	q3map_surfacelight 1000
 
@@ -37,20 +37,20 @@ textures/parpax_evillair/e6trim_bsrlight_s_1k
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e6trim_bsrlight.tga
+		map textures/parpax_evillair_src/e6trim_bsrlight_d
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e6trim_bsrlight_blend.tga
+		map textures/parpax_evillair_src/e6trim_bsrlight_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6vlight_supp_s_1k
+textures/parpax_evillair/e6vlight_supp_1k
 {
-	qer_editorimage textures/parpax_evillair/e6vlight_supp.tga
-	q3map_lightimage textures/parpax_evillair/e6vlight_supp_blend.tga
+	qer_editorImage textures/parpax_evillair_src/e6vlight_supp_d
+	q3map_lightImage textures/parpax_evillair_src/e6vlight_supp_blend_d
 	surfaceparm nomarks
 	q3map_surfacelight 1000
 
@@ -59,20 +59,20 @@ textures/parpax_evillair/e6vlight_supp_s_1k
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e6vlight_supp.tga
+		map textures/parpax_evillair_src/e6vlight_supp_d
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e6vlight_supp_blend.tga
+		map textures/parpax_evillair_src/e6vlight_supp_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6vlight_supp_s_2k
+textures/parpax_evillair/e6vlight_supp_2k
 {
-	qer_editorimage textures/parpax_evillair/e6vlight_supp.tga
-	q3map_lightimage textures/parpax_evillair/e6vlight_supp_blend.tga
+	qer_editorImage textures/parpax_evillair_src/e6vlight_supp_d
+	q3map_lightImage textures/parpax_evillair_src/e6vlight_supp_blend_d
 	surfaceparm nomarks
 	q3map_surfacelight 2000
 
@@ -81,12 +81,12 @@ textures/parpax_evillair/e6vlight_supp_s_2k
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e6vlight_supp.tga
+		map textures/parpax_evillair_src/e6vlight_supp_d
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e6vlight_supp_blend.tga
+		map textures/parpax_evillair_src/e6vlight_supp_blend_d
 		blendfunc add
 	}
 }
@@ -94,12 +94,12 @@ textures/parpax_evillair/e6vlight_supp_s_2k
 textures/parpax_evillair/e6dmetal_nonsolid
 {
 	surfaceparm nonsolid
-	qer_editorimage textures/parpax_evillair/e6dmetal.jpg
+	qer_editorImage textures/parpax_evillair_src/e6dmetal.jpg_d
 
 	{
-		map textures/parpax_evillair/e6dmetal.jpg
+		map textures/parpax_evillair_src/e6dmetal.jpg_d
 	}
-	
+
 	{
 		map $lightmap
 		blendfunc filter
@@ -110,12 +110,12 @@ textures/parpax_evillair/e6dmetal_nonsolid
 textures/parpax_evillair/e8_base1_nonsolid
 {
 	surfaceparm nonsolid
-	qer_editorimage textures/parpax_evillair/e8_base1.jpg
+	qer_editorImage textures/parpax_evillair_src/e8_base1.jpg_d
 
 	{
-		map textures/parpax_evillair/e8_base1.jpg
+		map textures/parpax_evillair_src/e8_base1.jpg_d
 	}
-	
+
 	{
 		map $lightmap
 		blendfunc filter
@@ -126,12 +126,12 @@ textures/parpax_evillair/e8_base1_nonsolid
 textures/parpax_evillair/e8_base1b_nonsolid
 {
 	surfaceparm nonsolid
-	qer_editorimage textures/parpax_evillair/e8_base1b.jpg
+	qer_editorImage textures/parpax_evillair_src/e8_base1b.jpg_d
 
 	{
-		map textures/parpax_evillair/e8_base1b.jpg
+		map textures/parpax_evillair_src/e8_base1b.jpg_d
 	}
-	
+
 	{
 		map $lightmap
 		blendfunc filter
@@ -142,12 +142,12 @@ textures/parpax_evillair/e8_base1b_nonsolid
 textures/parpax_evillair/e8_base1c_nonsolid
 {
 	surfaceparm nonsolid
-	qer_editorimage textures/parpax_evillair/e8_base1c.jpg
+	qer_editorImage textures/parpax_evillair_src/e8_base1c.jpg_d
 
 	{
-		map textures/parpax_evillair/e8_base1c.jpg
+		map textures/parpax_evillair_src/e8_base1c.jpg_d
 	}
-	
+
 	{
 		map $lightmap
 		blendfunc filter
@@ -155,16 +155,16 @@ textures/parpax_evillair/e8_base1c_nonsolid
 	}
 }
 
-textures/parpax_evillair/e6metalfan_blade_s
+textures/parpax_evillair/e6metalfan_blade
 {
-	qer_editorimage textures/parpax_evillair/e6metalfan_blade.tga
+	qer_editorImage textures/parpax_evillair_src/e6metalfan_blade_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6metalfan_blade.tga
+		map textures/parpax_evillair_src/e6metalfan_blade_d
 		tcmod rotate -1500
 		alphafunc GE128
 		depthwrite
@@ -176,21 +176,21 @@ textures/parpax_evillair/e6metalfan_blade_s
 	}
 }
 
-textures/parpax_evillair/e6tinylight_s_4k
+textures/parpax_evillair/e6tinylight_4k
 {
-	qer_editorimage textures/parpax_evillair/e6tinylight.tga
+	qer_editorImage textures/parpax_evillair_src/e6tinylight_d
 	q3map_surfacelight 4000
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_evillair/e6tinylight.tga
+		map textures/parpax_evillair_src/e6tinylight_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6tinylight_blend.tga
+		map textures/parpax_evillair_src/e6tinylight_blend_d
 		blendfunc add
 	}
 }
@@ -199,20 +199,20 @@ textures/parpax_evillair/eq2_baselt03_blue_3k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03_blue.blend.jpg
-	qer_editorimage textures/parpax_evillair/eq2_baselt03_blue.jpg
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03_blue_a.jpg_d
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03_blue.jpg_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03_blue.jpg
+		map textures/parpax_evillair_src/eq2_baselt03_blue.jpg_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03_blue.blend.jpg
+		map textures/parpax_evillair_src/eq2_baselt03_blue_a.jpg_d
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -221,20 +221,20 @@ textures/parpax_evillair/eq2_baselt03_blue_5k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 5000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03_blue.blend.jpg
-	qer_editorimage textures/parpax_evillair/eq2_baselt03_blue.jpg
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03_blue_a.jpg_d
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03_blue.jpg_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03_blue.jpg
+		map textures/parpax_evillair_src/eq2_baselt03_blue.jpg_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03_blue.blend.jpg
+		map textures/parpax_evillair_src/eq2_baselt03_blue_a.jpg_d
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -243,20 +243,20 @@ textures/parpax_evillair/eq2_baselt03b_blue_1500
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1500
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03b_blue.blend.jpg
-	qer_editorimage textures/parpax_evillair/eq2_baselt03b_blue.jpg
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03b_blue_a.jpg_d
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03b_blue.jpg_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b_blue.jpg
+		map textures/parpax_evillair_src/eq2_baselt03b_blue.jpg_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b_blue.blend.jpg
+		map textures/parpax_evillair_src/eq2_baselt03b_blue_a.jpg_d
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -265,20 +265,20 @@ textures/parpax_evillair/eq2_baselt03b_blue_3k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03b_blue.blend.jpg
-	qer_editorimage textures/parpax_evillair/eq2_baselt03b_blue.jpg
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03b_blue_a.jpg_d
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03b_blue.jpg_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b_blue.jpg
+		map textures/parpax_evillair_src/eq2_baselt03b_blue.jpg_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b_blue.blend.jpg
+		map textures/parpax_evillair_src/eq2_baselt03b_blue_a.jpg_d
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -287,20 +287,20 @@ textures/parpax_evillair/eq2lt_baselt03b_1500
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1500
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03b.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt03b.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03b_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03b_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -309,20 +309,20 @@ textures/parpax_evillair/eq2lt_baselt03b_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03b.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt03b.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03b_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03b_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -330,20 +330,20 @@ textures/parpax_evillair/eq2lt_baselt03b_4k
 textures/parpax_evillair/eq2lt_baselt03b_nolight
 {
 	surfaceparm nomarks
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03b.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt03b.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03b_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03b_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -351,20 +351,20 @@ textures/parpax_evillair/eq2lt_baselt03b_nolight
 textures/parpax_evillair/eq2lt_bmtl03light_nolight
 {
 	surfaceparm nomarks
-	qer_editorimage textures/parpax_evillair/eq2_bmtl_03_light.tga
-	q3map_lightimage textures/parpax_evillair/eq2_bmtl_03_light.blend.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_bmtl_03_light_d
+	q3map_lightImage textures/parpax_evillair_src/eq2_bmtl_03_light_a
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_bmtl_03_light.tga
+		map textures/parpax_evillair_src/eq2_bmtl_03_light_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_bmtl_03_light.blend.tga
+		map textures/parpax_evillair_src/eq2_bmtl_03_light_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -378,10 +378,10 @@ textures/parpax_evillair/e8xgirder_nonsolid
 	surfaceparm nonsolid
 	cull disable
 	nopicmip
-	qer_editorimage textures/parpax_evillair/e8xgirder.tga
+	qer_editorImage textures/parpax_evillair_src/e8xgirder_d
 
 	{
-		map textures/parpax_evillair/e8xgirder.tga
+		map textures/parpax_evillair_src/e8xgirder_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -402,17 +402,17 @@ textures/parpax_evillair/e8xgirder_nonsolid
 
 textures/parpax_evillair/eq2_telepanel
 {
-	qer_editorimage textures/parpax_evillair/eq2_telepanel.tga
-	q3map_lightimage textures/parpax_evillair/eq2_telegoo.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_telepanel_d
+	q3map_lightImage textures/parpax_evillair_src/eq2_telegoo_d
 	q3map_surfacelight 25
 
 	{
-		map textures/parpax_evillair/eq2_telegoo.tga
+		map textures/parpax_evillair_src/eq2_telegoo_d
 		rgbGen identity
 		tcMod turb 0 0.1 0 0.2
 	}
 	{
-		map textures/parpax_evillair/eq2_telepanel.tga
+		map textures/parpax_evillair_src/eq2_telepanel_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -429,14 +429,14 @@ textures/parpax_evillair/eq2_banner
 {
 	cull disable
 	surfaceparm alphashadow
-	surfaceparm trans	
+	surfaceparm trans
 	surfaceparm nomarks
 	tessSize 64
 	deformVertexes wave 30 sin 0 2 0 .2
 	deformVertexes wave 100 sin 0 2 0 .7
-	
+
 	{
-		map textures/parpax_evillair/eq2_banner.tga
+		map textures/parpax_evillair_src/eq2_banner_d
 		alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -453,14 +453,14 @@ textures/parpax_evillair/eq2_banner_ow
 {
 	cull disable
 	surfaceparm alphashadow
-	surfaceparm trans	
+	surfaceparm trans
 	surfaceparm nomarks
 	tessSize 64
 	deformVertexes wave 100 sin 0 1 0 .1
-	deformVertexes wave 100 sin 0 1 0 .2	
+	deformVertexes wave 100 sin 0 1 0 .2
 
 	{
-	map textures/parpax_evillair/eq2_banner_ow.tga
+	map textures/parpax_evillair_src/eq2_banner_ow_d
 	alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -475,15 +475,15 @@ textures/parpax_evillair/eq2_banner_ow
 
 textures/parpax_evillair/eq2_banner_still
 {
-	qer_editorimage textures/parpax_evillair/eq2_banner.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_banner_d
 	cull disable
 	surfaceparm alphashadow
-	surfaceparm trans	
+	surfaceparm trans
 	surfaceparm nomarks
 	tessSize 32
 
 	{
-	map textures/parpax_evillair/eq2_banner.tga
+	map textures/parpax_evillair_src/eq2_banner_d
 	alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -498,21 +498,21 @@ textures/parpax_evillair/eq2_banner_still
 
 textures/parpax_evillair/eq2_bounce
 {
-	qer_editorimage textures/parpax_evillair/eq2_bounce.tga
-	
+	qer_editorImage textures/parpax_evillair_src/eq2_bounce_d
+
 	{
-		map textures/parpax_evillair/eq2_bounce.tga
+		map textures/parpax_evillair_src/eq2_bounce_d
 		rgbGen identity
 	}
 	{
-		clampmap textures/parpax_evillair/eq2_bouncefan.tga
+		clampmap textures/parpax_evillair_src/eq2_bouncefan_d
 		tcMod rotate 512
 		blendFunc blend
 		depthWrite
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_bounce.tga
+		map textures/parpax_evillair_src/eq2_bounce_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -529,20 +529,20 @@ textures/parpax_evillair/eq2lt_walllight512_300
 	surfaceparm nomarks
 	q3map_surfacelight 300
 	//q3map_lightsubdivide 32
-	qer_editorimage textures/parpax_evillair/eq2_walllight_512.tga
-	q3map_lightimage textures/parpax_evillair/eq2_walllight_512.blend.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_walllight_512_d
+	q3map_lightImage textures/parpax_evillair_src/eq2_walllight_512_a
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_walllight_512.tga
+		map textures/parpax_evillair_src/eq2_walllight_512_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_walllight_512.blend.tga
+		map textures/parpax_evillair_src/eq2_walllight_512_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -552,20 +552,20 @@ textures/parpax_evillair/eq2lt_bmtl03light_300
 	surfaceparm nomarks
 	q3map_surfacelight 300
 	//q3map_lightsubdivide 32
-	qer_editorimage textures/parpax_evillair/eq2_bmtl_03_light.tga
-	q3map_lightimage textures/parpax_evillair/eq2_bmtl_03_light.blend.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_bmtl_03_light_d
+	q3map_lightImage textures/parpax_evillair_src/eq2_bmtl_03_light_a
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_bmtl_03_light.tga
+		map textures/parpax_evillair_src/eq2_bmtl_03_light_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_bmtl_03_light.blend.tga
+		map textures/parpax_evillair_src/eq2_bmtl_03_light_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -575,20 +575,20 @@ textures/parpax_evillair/eq2lt_wallbig_01_1000
 	surfaceparm nomarks
 	q3map_surfacelight 1000
 	q3map_lightsubdivide 32
-	qer_editorimage textures/parpax_evillair/eq2_wallbig_01.tga
-	q3map_lightimage textures/parpax_evillair/eq2_wallbig_01.blend.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_wallbig_01_d
+	q3map_lightImage textures/parpax_evillair_src/eq2_wallbig_01_a
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_wallbig_01.tga
+		map textures/parpax_evillair_src/eq2_wallbig_01_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_wallbig_01.blend.tga
+		map textures/parpax_evillair_src/eq2_wallbig_01_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -598,20 +598,20 @@ textures/parpax_evillair/eq2lt_wallbig_01b_1000
 	surfaceparm nomarks
 	q3map_surfacelight 1000
 	q3map_lightsubdivide 32
-	qer_editorimage textures/parpax_evillair/eq2_wallbig_01b.tga
-	q3map_lightimage textures/parpax_evillair/eq2_wallbig_01.blend.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_wallbig_01b_d
+	q3map_lightImage textures/parpax_evillair_src/eq2_wallbig_01_a
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_wallbig_01b.tga
+		map textures/parpax_evillair_src/eq2_wallbig_01b_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_wallbig_01.blend.tga
+		map textures/parpax_evillair_src/eq2_wallbig_01_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -621,20 +621,20 @@ textures/parpax_evillair/eq2lt_wallbig_01_3000
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/parpax_evillair/eq2_wallbig_01.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_wallbig_01.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_wallbig_01_a
+	qer_editorImage textures/parpax_evillair_src/eq2_wallbig_01_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_wallbig_01.tga
+		map textures/parpax_evillair_src/eq2_wallbig_01_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_wallbig_01.blend.tga
+		map textures/parpax_evillair_src/eq2_wallbig_01_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -644,20 +644,20 @@ textures/parpax_evillair/eq2lt_wallbig_01b_3000
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/parpax_evillair/eq2_wallbig_01.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_wallbig_01b.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_wallbig_01_a
+	qer_editorImage textures/parpax_evillair_src/eq2_wallbig_01b_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_wallbig_01b.tga
+		map textures/parpax_evillair_src/eq2_wallbig_01b_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_wallbig_01.blend.tga
+		map textures/parpax_evillair_src/eq2_wallbig_01_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -666,20 +666,20 @@ textures/parpax_evillair/eq2lt_spawnlite_1k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	q3map_lightimage textures/parpax_evillair/eq2_weap_spawnlite.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_weap_spawnlite.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_weap_spawnlite_a
+	qer_editorImage textures/parpax_evillair_src/eq2_weap_spawnlite_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_weap_spawnlite.tga
+		map textures/parpax_evillair_src/eq2_weap_spawnlite_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_weap_spawnlite.blend.tga
+		map textures/parpax_evillair_src/eq2_weap_spawnlite_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -688,20 +688,20 @@ textures/parpax_evillair/eq2lt_spawnlite_3k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/parpax_evillair/eq2_weap_spawnlite.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_weap_spawnlite.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_weap_spawnlite_a
+	qer_editorImage textures/parpax_evillair_src/eq2_weap_spawnlite_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_weap_spawnlite.tga
+		map textures/parpax_evillair_src/eq2_weap_spawnlite_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_weap_spawnlite.blend.tga
+		map textures/parpax_evillair_src/eq2_weap_spawnlite_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -710,20 +710,20 @@ textures/parpax_evillair/eq2lt_spawnlite_6k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 6000
-	q3map_lightimage textures/parpax_evillair/eq2_weap_spawnlite.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_weap_spawnlite.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_weap_spawnlite_a
+	qer_editorImage textures/parpax_evillair_src/eq2_weap_spawnlite_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_weap_spawnlite.tga
+		map textures/parpax_evillair_src/eq2_weap_spawnlite_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_weap_spawnlite.blend.tga
+		map textures/parpax_evillair_src/eq2_weap_spawnlite_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -732,15 +732,15 @@ textures/parpax_evillair/eq2_yell01_1k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	q3map_lightimage textures/parpax_evillair/eq2_yell01.tga
-	qer_editorimage textures/parpax_evillair/eq2_yell01.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_yell01_d
+	qer_editorImage textures/parpax_evillair_src/eq2_yell01_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_yell01.tga
+		map textures/parpax_evillair_src/eq2_yell01_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -750,15 +750,15 @@ textures/parpax_evillair/eq2_yell01_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/parpax_evillair/eq2_yell01.tga
-	qer_editorimage textures/parpax_evillair/eq2_yell01.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_yell01_d
+	qer_editorImage textures/parpax_evillair_src/eq2_yell01_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_yell01.tga
+		map textures/parpax_evillair_src/eq2_yell01_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -768,15 +768,15 @@ textures/parpax_evillair/eq2_yell01_8k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 8000
-	q3map_lightimage textures/parpax_evillair/eq2_yell01.tga
-	qer_editorimage textures/parpax_evillair/eq2_yell01.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_yell01_d
+	qer_editorImage textures/parpax_evillair_src/eq2_yell01_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_yell01.tga
+		map textures/parpax_evillair_src/eq2_yell01_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -786,15 +786,15 @@ textures/parpax_evillair/eq2_yell01_800
 {
 	surfaceparm nomarks
 	q3map_surfacelight 800
-	q3map_lightimage textures/parpax_evillair/eq2_yell01.tga
-	qer_editorimage textures/parpax_evillair/eq2_yell01.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_yell01_d
+	qer_editorImage textures/parpax_evillair_src/eq2_yell01_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_yell01.tga
+		map textures/parpax_evillair_src/eq2_yell01_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -804,15 +804,15 @@ textures/parpax_evillair/eq2_yell02_1k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 1000
-	q3map_lightimage textures/parpax_evillair/eq2_yell02.tga
-	qer_editorimage textures/parpax_evillair/eq2_yell02.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_yell02_d
+	qer_editorImage textures/parpax_evillair_src/eq2_yell02_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_yell02.tga
+		map textures/parpax_evillair_src/eq2_yell02_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -822,15 +822,15 @@ textures/parpax_evillair/eq2_yell02_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/parpax_evillair/eq2_yell02.tga
-	qer_editorimage textures/parpax_evillair/eq2_yell02.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_yell02_d
+	qer_editorImage textures/parpax_evillair_src/eq2_yell02_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_yell02.tga
+		map textures/parpax_evillair_src/eq2_yell02_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -840,15 +840,15 @@ textures/parpax_evillair/eq2_yell02_8k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 8000
-	q3map_lightimage textures/parpax_evillair/eq2_yell02.tga
-	qer_editorimage textures/parpax_evillair/eq2_yell02.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_yell02_d
+	qer_editorImage textures/parpax_evillair_src/eq2_yell02_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_yell02.tga
+		map textures/parpax_evillair_src/eq2_yell02_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -858,15 +858,15 @@ textures/parpax_evillair/eq2_yell02_800
 {
 	surfaceparm nomarks
 	q3map_surfacelight 800
-	q3map_lightimage textures/parpax_evillair/eq2_yell02.tga
-	qer_editorimage textures/parpax_evillair/eq2_yell02.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_yell02_d
+	qer_editorImage textures/parpax_evillair_src/eq2_yell02_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_yell02.tga
+		map textures/parpax_evillair_src/eq2_yell02_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -876,20 +876,20 @@ textures/parpax_evillair/eq2lt_trimv_04lite
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/parpax_evillair/eq2_trimv_04lite.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_trimv_04lite.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_trimv_04lite_a
+	qer_editorImage textures/parpax_evillair_src/eq2_trimv_04lite_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_trimv_04lite.tga
+		map textures/parpax_evillair_src/eq2_trimv_04lite_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_trimv_04lite.blend.tga
+		map textures/parpax_evillair_src/eq2_trimv_04lite_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -898,20 +898,20 @@ textures/parpax_evillair/eq2lt_trimlite
 {
 	surfaceparm nomarks
 	q3map_surfacelight 2500
-	q3map_lightimage textures/parpax_evillair/eq2_trimlite_side.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_trimlite_side.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_trimlite_side_a
+	qer_editorImage textures/parpax_evillair_src/eq2_trimlite_side_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_trimlite_side.tga
+		map textures/parpax_evillair_src/eq2_trimlite_side_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_trimlite_side.blend.tga
+		map textures/parpax_evillair_src/eq2_trimlite_side_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -920,20 +920,20 @@ textures/parpax_evillair/eq2lt_trimv_lite_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/parpax_evillair/eq2_trimv_lite.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_trimv_lite.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_trimv_lite_a
+	qer_editorImage textures/parpax_evillair_src/eq2_trimv_lite_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_trimv_lite.tga
+		map textures/parpax_evillair_src/eq2_trimv_lite_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_trimv_lite.blend.tga
+		map textures/parpax_evillair_src/eq2_trimv_lite_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -942,20 +942,20 @@ textures/parpax_evillair/eq2lt_stepsidelight_4k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 4000
-	q3map_lightimage textures/parpax_evillair/eq2_stepsidelight.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_stepsidelight.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_stepsidelight_a
+	qer_editorImage textures/parpax_evillair_src/eq2_stepsidelight_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_stepsidelight.tga
+		map textures/parpax_evillair_src/eq2_stepsidelight_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_stepsidelight.blend.tga
+		map textures/parpax_evillair_src/eq2_stepsidelight_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -964,20 +964,20 @@ textures/parpax_evillair/eq2lt_stepsidelight_8k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 8000
-	q3map_lightimage textures/parpax_evillair/eq2_stepsidelight.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_stepsidelight.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_stepsidelight_a
+	qer_editorImage textures/parpax_evillair_src/eq2_stepsidelight_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_stepsidelight.tga
+		map textures/parpax_evillair_src/eq2_stepsidelight_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_stepsidelight.blend.tga
+		map textures/parpax_evillair_src/eq2_stepsidelight_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -986,20 +986,20 @@ textures/parpax_evillair/eq2lt_clight_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/parpax_evillair/eq2_32caplight.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_32caplight.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_32caplight_a
+	qer_editorImage textures/parpax_evillair_src/eq2_32caplight_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_32caplight.tga
+		map textures/parpax_evillair_src/eq2_32caplight_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_32caplight.blend.tga
+		map textures/parpax_evillair_src/eq2_32caplight_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1008,20 +1008,20 @@ textures/parpax_evillair/eq2lt_clight_8k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 8000
-	q3map_lightimage textures/parpax_evillair/eq2_32caplight.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_32caplight.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_32caplight_a
+	qer_editorImage textures/parpax_evillair_src/eq2_32caplight_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_32caplight.tga
+		map textures/parpax_evillair_src/eq2_32caplight_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_32caplight.blend.tga
+		map textures/parpax_evillair_src/eq2_32caplight_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1030,20 +1030,20 @@ textures/parpax_evillair/eq2lt_baselt
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt.tga
+		map textures/parpax_evillair_src/eq2_baselt_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1053,20 +1053,20 @@ textures/parpax_evillair/eq2lt_baselt02
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/parpax_evillair/eq2_baselt02.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt02.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt02_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt02_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt02.tga
+		map textures/parpax_evillair_src/eq2_baselt02_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt02.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt02_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1076,20 +1076,20 @@ textures/parpax_evillair/eq2lt_baselt02_1k
 	surfaceparm nomarks
 	q3map_surfacelight 1000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/parpax_evillair/eq2_baselt02.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt02.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt02_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt02_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt02.tga
+		map textures/parpax_evillair_src/eq2_baselt02_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt02.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt02_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1098,20 +1098,20 @@ textures/parpax_evillair/eq2lt_baselt03
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt03.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03.tga
+		map textures/parpax_evillair_src/eq2_baselt03_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt03_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1120,20 +1120,20 @@ textures/parpax_evillair/eq2lt_baselt03b
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03b.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt03b.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03b_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03b_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1142,20 +1142,20 @@ textures/parpax_evillair/eq2lt_baselt03_2k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 2000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt03.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03.tga
+		map textures/parpax_evillair_src/eq2_baselt03_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt03_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1164,20 +1164,20 @@ textures/parpax_evillair/eq2lt_baselt03b_2k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 2000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt03b.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt03b.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt03b_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt03b_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt03b.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt03b_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1186,43 +1186,20 @@ textures/parpax_evillair/eq2lt_baselt04
 {
 	surfaceparm nomarks
 	q3map_surfacelight 3000
-	q3map_lightimage textures/parpax_evillair/eq2_baselt04.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_baselt04.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_baselt04_a
+	qer_editorImage textures/parpax_evillair_src/eq2_baselt04_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt04.tga
+		map textures/parpax_evillair_src/eq2_baselt04_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_baselt04.blend.tga
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
-textures/parpax_evillair/eq2lt_trimlight_s_3k
-{
-	surfaceparm nomarks
-	q3map_surfacelight 3000
-	q3map_lightsubdivide 32
-	q3map_lightimage textures/parpax_evillair/eq2_trimlight_01s.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_trimlight_01s.tga
-
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	{
-		map textures/parpax_evillair/eq2_trimlight_01s.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-	{
-		map textures/parpax_evillair/eq2_trimlight_01s.blend.tga
+		map textures/parpax_evillair_src/eq2_baselt04_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -1232,34 +1209,57 @@ textures/parpax_evillair/eq2lt_trimlight_3k
 	surfaceparm nomarks
 	q3map_surfacelight 3000
 	q3map_lightsubdivide 32
-	q3map_lightimage textures/parpax_evillair/eq2_trimlight_01.blend.tga
-	qer_editorimage textures/parpax_evillair/eq2_trimlight_01.tga
+	q3map_lightImage textures/parpax_evillair_src/eq2_trimlight_01s_a
+	qer_editorImage textures/parpax_evillair_src/eq2_trimlight_01s_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_trimlight_01.tga
+		map textures/parpax_evillair_src/eq2_trimlight_01s_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/eq2_trimlight_01.blend.tga
+		map textures/parpax_evillair_src/eq2_trimlight_01s_a
+		blendfunc GL_ONE GL_ONE
+	}
+}
+
+textures/parpax_evillair/eq2lt_trimlight_3k
+{
+	surfaceparm nomarks
+	q3map_surfacelight 3000
+	q3map_lightsubdivide 32
+	q3map_lightImage textures/parpax_evillair_src/eq2_trimlight_01_a
+	qer_editorImage textures/parpax_evillair_src/eq2_trimlight_01_d
+
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/parpax_evillair_src/eq2_trimlight_01_d
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/parpax_evillair_src/eq2_trimlight_01_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
 textures/parpax_evillair/eq2_alphawires
 {
-	qer_editorimage textures/parpax_evillair/eq2_wires_01.tga
+	qer_editorImage textures/parpax_evillair_src/eq2_wires_01_d
 	cull disable
 	surfaceparm alphashadow
-	surfaceparm trans	
+	surfaceparm trans
 	surfaceparm nomarks
 
 	{
-	map textures/parpax_evillair/eq2_wires_01.tga
+	map textures/parpax_evillair_src/eq2_wires_01_d
 	alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -1272,15 +1272,15 @@ textures/parpax_evillair/eq2_alphawires
 	}
 }
 
-textures/parpax_evillair/e6bsegrtflr128_s
+textures/parpax_evillair/e6bsegrtflr128
 {
-	qer_editorimage textures/parpax_evillair/e6bsegrtflr128.tga
+	qer_editorImage textures/parpax_evillair_src/e6bsegrtflr128_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 	{
-		map textures/parpax_evillair/e6bsegrtflr128.tga
+		map textures/parpax_evillair_src/e6bsegrtflr128_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1291,16 +1291,16 @@ textures/parpax_evillair/e6bsegrtflr128_s
 	}
 }
 
-textures/parpax_evillair/e6bsegrtflr256_s
+textures/parpax_evillair/e6bsegrtflr256
 {
-	qer_editorimage textures/parpax_evillair/e6bsegrtflr256.tga
+	qer_editorImage textures/parpax_evillair_src/e6bsegrtflr256_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6bsegrtflr256.tga
+		map textures/parpax_evillair_src/e6bsegrtflr256_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1311,16 +1311,16 @@ textures/parpax_evillair/e6bsegrtflr256_s
 	}
 }
 
-textures/parpax_evillair/e6grate_flr_b_s
+textures/parpax_evillair/e6grate_flr_b
 {
-	qer_editorimage textures/parpax_evillair/e6grate_flr_b.tga
+	qer_editorImage textures/parpax_evillair_src/e6grate_flr_b
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6grate_flr_b.tga
+		map textures/parpax_evillair_src/e6grate_flr_b
 		alphafunc GE128
 		depthwrite
 	}
@@ -1331,16 +1331,16 @@ textures/parpax_evillair/e6grate_flr_b_s
 	}
 }
 
-textures/parpax_evillair/e6grate_flr_s
+textures/parpax_evillair/e6grate_flr
 {
-	qer_editorimage textures/parpax_evillair/e6grate_flr.tga
+	qer_editorImage textures/parpax_evillair_src/e6grate_flr_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6grate_flr.tga
+		map textures/parpax_evillair_src/e6grate_flr_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1351,16 +1351,16 @@ textures/parpax_evillair/e6grate_flr_s
 	}
 }
 
-textures/parpax_evillair/e6grtfloorceil_s
+textures/parpax_evillair/e6grtfloorceil
 {
-	qer_editorimage textures/parpax_evillair/e6grtfloorceil.tga
+	qer_editorImage textures/parpax_evillair_src/e6grtfloorceil_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6grtfloorceil.tga
+		map textures/parpax_evillair_src/e6grtfloorceil_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1371,16 +1371,16 @@ textures/parpax_evillair/e6grtfloorceil_s
 	}
 }
 
-textures/parpax_evillair/e6grate2_flr_s
+textures/parpax_evillair/e6grate2_flr
 {
-	qer_editorimage textures/parpax_evillair/e6grate2_flr.tga
+	qer_editorImage textures/parpax_evillair_src/e6grate2_flr_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6grate2_flr.tga
+		map textures/parpax_evillair_src/e6grate2_flr_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1391,16 +1391,16 @@ textures/parpax_evillair/e6grate2_flr_s
 	}
 }
 
-textures/parpax_evillair/e6grate2_flr_b_s
+textures/parpax_evillair/e6grate2_flr_b
 {
-	qer_editorimage textures/parpax_evillair/e6grate2_flr_b.tga
+	qer_editorImage textures/parpax_evillair_src/e6grate2_flr_b
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6grate2_flr_b.tga
+		map textures/parpax_evillair_src/e6grate2_flr_b
 		alphafunc GE128
 		depthwrite
 	}
@@ -1411,81 +1411,81 @@ textures/parpax_evillair/e6grate2_flr_b_s
 	}
 }
 
-textures/parpax_evillair/e6launchcfloor_s
+textures/parpax_evillair/e6launchcfloor
 {
-	qer_editorimage textures/parpax_evillair/e6launchcfloor.tga
-	q3map_lightimage textures/parpax_evillair/e6launchcfloor_glow.tga
+	qer_editorImage textures/parpax_evillair_src/e6launchcfloor_d
+	q3map_lightImage textures/parpax_evillair_src/e6launchcfloor_glow_d
 	q3map_surfacelight 400
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6launchcfloor.tga
+		map textures/parpax_evillair_src/e6launchcfloor_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6launchcfloor_glow.tga
+		map textures/parpax_evillair_src/e6launchcfloor_glow_d
 		blendfunc add
 		rgbgen wave sin .5 .8 0 1.5
 	}
 	{
-		clampmap textures/parpax_evillair/e6launchcfloor_fx.tga
+		clampmap textures/parpax_evillair_src/e6launchcfloor_fx_d
 		blendfunc add
 		tcMod stretch sin 1.2 .9 0 1.5
 		rgbGen wave square .5 .5 .25 1.5
 	}
 }
 
-textures/parpax_evillair/e6launchengine_s
+textures/parpax_evillair/e6launchengine
 {
-	qer_editorimage textures/parpax_evillair/e6launchengine.tga
-	q3map_lightimage textures/parpax_evillair/e6launchengine_glow.tga
+	qer_editorImage textures/parpax_evillair_src/e6launchengine_d
+	q3map_lightImage textures/parpax_evillair_src/e6launchengine_glow_d
 	q3map_surfacelight 400
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6launchengine.tga
+		map textures/parpax_evillair_src/e6launchengine_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6launchengine_glow.tga
+		map textures/parpax_evillair_src/e6launchengine_glow_d
 		blendfunc add
 		rgbgen wave sin .5 .8 0 1.5
 	}
 	{
-		clampmap textures/parpax_evillair/e6launchengine_fx.tga
+		clampmap textures/parpax_evillair_src/e6launchengine_fx_d
 		blendfunc add
 		tcMod stretch sin 1.2 .9 0 1.5
 		rgbGen wave square .5 .5 .25 1.5
 	}
 }
 
-textures/parpax_evillair/e6launchlfloor_s
+textures/parpax_evillair/e6launchlfloor
 {
-	qer_editorimage textures/parpax_evillair/e6launchlfloor.tga
-	q3map_lightimage textures/parpax_evillair/e6launchlfloor_glow.tga
+	qer_editorImage textures/parpax_evillair_src/e6launchlfloor_d
+	q3map_lightImage textures/parpax_evillair_src/e6launchlfloor_glow_d
 	q3map_surfacelight 400
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6launchlfloor.tga
+		map textures/parpax_evillair_src/e6launchlfloor_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6launchlfloor_glow.tga
+		map textures/parpax_evillair_src/e6launchlfloor_glow_d
 		blendfunc add
 		rgbgen wave sin .5 .8 0 1.5
 	}
 	{
-		clampmap textures/parpax_evillair/e6launchlfloor_fx.tga
+		clampmap textures/parpax_evillair_src/e6launchlfloor_fx_d
 		blendfunc add
 		tcMod stretch sin 1.2 .9 0 1.5
 		rgbGen wave square .5 .5 .25 1.5
@@ -1494,17 +1494,17 @@ textures/parpax_evillair/e6launchlfloor_s
 
 textures/parpax_evillair/e6tekmtlrflr_h_full_slow
 {
-	qer_editorimage textures/parpax_evillair/e6tekmtlrflr_h.tga
+	qer_editorImage textures/parpax_evillair_src/e6tekmtlrflr_h_d
 
 	{
-		map textures/parpax_evillair/e6tekmtlrflr_h.tga
+		map textures/parpax_evillair_src/e6tekmtlrflr_h_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6tekmtlrflr_h_glow.tga
+		map textures/parpax_evillair_src/e6tekmtlrflr_h_glow_d
 		rgbgen wave sin .5 .5 0 .2
 		blendfunc add
 	}
@@ -1512,32 +1512,32 @@ textures/parpax_evillair/e6tekmtlrflr_h_full_slow
 
 textures/parpax_evillair/e6tekmtlrflr_h_small_noisy_fast
 {
-	qer_editorimage textures/parpax_evillair/e6tekmtlrflr_h.tga
+	qer_editorImage textures/parpax_evillair_src/e6tekmtlrflr_h_d
 
 	{
-		map textures/parpax_evillair/e6tekmtlrflr_h.tga
+		map textures/parpax_evillair_src/e6tekmtlrflr_h_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6tekmtlrflr_h_glow.tga
+		map textures/parpax_evillair_src/e6tekmtlrflr_h_glow_d
 		rgbgen wave noise .9 .2 0 4
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6xgratebasic_b_s
+textures/parpax_evillair/e6xgratebasic_b
 {
-	qer_editorimage textures/parpax_evillair/e6xgratebasic_b.tga
+	qer_editorImage textures/parpax_evillair_src/e6xgratebasic_b_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6xgratebasic_b.tga
+		map textures/parpax_evillair_src/e6xgratebasic_b_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1548,16 +1548,16 @@ textures/parpax_evillair/e6xgratebasic_b_s
 	}
 }
 
-textures/parpax_evillair/e6xgratebasic_s
+textures/parpax_evillair/e6xgratebasic
 {
-	qer_editorimage textures/parpax_evillair/e6xgratebasic.tga
+	qer_editorImage textures/parpax_evillair_src/e6xgratebasic_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6xgratebasic.tga
+		map textures/parpax_evillair_src/e6xgratebasic_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1568,36 +1568,36 @@ textures/parpax_evillair/e6xgratebasic_s
 	}
 }
 
-textures/parpax_evillair/e6horzlight_s_nolight
+textures/parpax_evillair/e6horzlight_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6horzlight.tga
+	qer_editorImage textures/parpax_evillair_src/e6horzlight_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_evillair/e6horzlight.tga
+		map textures/parpax_evillair_src/e6horzlight_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6horzlight_blend.tga
+		map textures/parpax_evillair_src/e6horzlight_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6horzovallight_s_nolight
+textures/parpax_evillair/e6horzovallight_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6horzovallight.tga
+	qer_editorImage textures/parpax_evillair_src/e6horzovallight_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_evillair/e6horzovallight.tga
+		map textures/parpax_evillair_src/e6horzovallight_d
 	}
 	{
-		map textures/parpax_evillair/e6horzovallight_blend.tga
+		map textures/parpax_evillair_src/e6horzovallight_blend_d
 		blendfunc add
 	}
 	{
@@ -1606,17 +1606,17 @@ textures/parpax_evillair/e6horzovallight_s_nolight
 	}
 }
 
-textures/parpax_evillair/e6horzovallight_s_nolight
+textures/parpax_evillair/e6horzovallight_nolight
 {
-qer_editorimage textures/parpax_evillair/e6horzovallight_a.tga
+qer_editorImage textures/parpax_evillair_src/e6horzovallight_a
 surfaceparm nomarks
-	
+
 {
-map textures/parpax_evillair/e6mtltpnl_light_fx.tga
+map textures/parpax_evillair_src/e6mtltpnl_light_fx_d
 tcmod scroll .2 1
 	}
 	{
-		map textures/parpax_evillair/e6horzovallight_a.tga
+		map textures/parpax_evillair_src/e6horzovallight_a
 		blendfunc blend
 	}
 	{
@@ -1624,188 +1624,188 @@ tcmod scroll .2 1
 		blendfunc GL_DST_COLOR GL_ONE_MINUS_DST_ALPHA
 	}
 	{
-		map textures/parpax_evillair/e6horzovallight_blend.tga
+		map textures/parpax_evillair_src/e6horzovallight_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6platelight_s_nolight
+textures/parpax_evillair/e6platelight_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6platelight.tga
+	qer_editorImage textures/parpax_evillair_src/e6platelight_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_evillair/e6platelight.tga
+		map textures/parpax_evillair_src/e6platelight_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6platelight_blend.tga
+		map textures/parpax_evillair_src/e6platelight_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6platelight_burnt_s_nolight
+textures/parpax_evillair/e6platelight_burnt_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6platelight_burnt.tga
+	qer_editorImage textures/parpax_evillair_src/e6platelight_burnt_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_evillair/e6platelight_burnt.tga
+		map textures/parpax_evillair_src/e6platelight_burnt_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6platelight_burnt_blend.tga
+		map textures/parpax_evillair_src/e6platelight_burnt_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6tinylight_s_nolight
+textures/parpax_evillair/e6tinylight_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6tinylight.tga
+	qer_editorImage textures/parpax_evillair_src/e6tinylight_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_evillair/e6tinylight.tga
+		map textures/parpax_evillair_src/e6tinylight_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6tinylight_blend.tga
+		map textures/parpax_evillair_src/e6tinylight_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6v_light_s_nolight
+textures/parpax_evillair/e6v_light_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6v_light.tga
+	qer_editorImage textures/parpax_evillair_src/e6v_light_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_evillair/e6v_light.tga
+		map textures/parpax_evillair_src/e6v_light_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6v_light_blend.tga
+		map textures/parpax_evillair_src/e6v_light_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6walllight_s_nolight
+textures/parpax_evillair/e6walllight_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6walllight.tga
+	qer_editorImage textures/parpax_evillair_src/e6walllight_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_evillair/e6walllight.tga
+		map textures/parpax_evillair_src/e6walllight_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6walllight_blend.tga
+		map textures/parpax_evillair_src/e6walllight_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6basicstrip_blue_s_nolight
+textures/parpax_evillair/e6basicstrip_blue_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6basicstrip_blue.tga
+	qer_editorImage textures/parpax_evillair_src/e6basicstrip_blue_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
-		map textures/parpax_evillair/e6basicstrip_blue.tga
+		map textures/parpax_evillair_src/e6basicstrip_blue_d
 	}
 }
 
-textures/parpax_evillair/e6basicstrip_green_s_nolight
+textures/parpax_evillair/e6basicstrip_green_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6basicstrip_green.tga
+	qer_editorImage textures/parpax_evillair_src/e6basicstrip_green_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
-		map textures/parpax_evillair/e6basicstrip_green.tga
+		map textures/parpax_evillair_src/e6basicstrip_green_d
 	}
 }
 
-textures/parpax_evillair/e6basicstrip_orange_s_nolight
+textures/parpax_evillair/e6basicstrip_orange_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6basicstrip_orange.tga
+	qer_editorImage textures/parpax_evillair_src/e6basicstrip_orange_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
-		map textures/parpax_evillair/e6basicstrip_orange.tga
+		map textures/parpax_evillair_src/e6basicstrip_orange_d
 	}
 }
 
-textures/parpax_evillair/e6basicstrip_red_s_nolight
+textures/parpax_evillair/e6basicstrip_red_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6basicstrip_red.tga
+	qer_editorImage textures/parpax_evillair_src/e6basicstrip_red_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
-		map textures/parpax_evillair/e6basicstrip_red.tga
+		map textures/parpax_evillair_src/e6basicstrip_red_d
 	}
 }
 
-textures/parpax_evillair/e6basicstrip_white_s_nolight
+textures/parpax_evillair/e6basicstrip_white_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6basicstrip_white.tga
+	qer_editorImage textures/parpax_evillair_src/e6basicstrip_white_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
-		map textures/parpax_evillair/e6basicstrip_white.tga
+		map textures/parpax_evillair_src/e6basicstrip_white_d
 	}
 }
 
-textures/parpax_evillair/e6basicstrip_yellow_s_nolight
+textures/parpax_evillair/e6basicstrip_yellow_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6basicstrip_yellow.tga
+	qer_editorImage textures/parpax_evillair_src/e6basicstrip_yellow_d
 	//q3map_surfacelight ?
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	
+
 	{
-		map textures/parpax_evillair/e6basicstrip_yellow.tga
+		map textures/parpax_evillair_src/e6basicstrip_yellow_d
 	}
 }
 
-textures/parpax_evillair/e6h_support_s
+textures/parpax_evillair/e6h_support
 {
-	qer_editorimage textures/parpax_evillair/e6h_support.tga
+	qer_editorImage textures/parpax_evillair_src/e6h_support_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6h_support.tga
+		map textures/parpax_evillair_src/e6h_support_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1816,16 +1816,16 @@ textures/parpax_evillair/e6h_support_s
 	}
 }
 
-textures/parpax_evillair/e6holestrip_s
+textures/parpax_evillair/e6holestrip
 {
-	qer_editorimage textures/parpax_evillair/e6holestrip.tga
+	qer_editorImage textures/parpax_evillair_src/e6holestrip_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6holestrip.tga
+		map textures/parpax_evillair_src/e6holestrip_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1836,22 +1836,22 @@ textures/parpax_evillair/e6holestrip_s
 	}
 }
 
-textures/parpax_evillair/e6vertgrt_supp_s_nolight
+textures/parpax_evillair/e6vertgrt_supp_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6vertgrt_supp.tga
-	q3map_lightimage textures/parpax_evillair/e6vertgrt_supp_fx.tga
+	qer_editorImage textures/parpax_evillair_src/e6vertgrt_supp_d
+	q3map_lightImage textures/parpax_evillair_src/e6vertgrt_supp_fx_d
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6vertgrt_supp.tga
+		map textures/parpax_evillair_src/e6vertgrt_supp_d
 	}
 	{
-		map textures/parpax_evillair/e6vertgrt_supp_fx.tga
+		map textures/parpax_evillair_src/e6vertgrt_supp_fx_d
 		tcmod scroll 0 2
 		blendfunc add
 	}
 	{
-		map textures/parpax_evillair/e6vertgrt_supp.tga
+		map textures/parpax_evillair_src/e6vertgrt_supp_d
 		blendfunc blend
 	}
 	{
@@ -1860,34 +1860,34 @@ textures/parpax_evillair/e6vertgrt_supp_s_nolight
 	}
 }
 
-textures/parpax_evillair/e6vlight_supp_s_nolight
+textures/parpax_evillair/e6vlight_supp_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6vlight_supp.tga
+	qer_editorImage textures/parpax_evillair_src/e6vlight_supp_d
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6vlight_supp.tga
+		map textures/parpax_evillair_src/e6vlight_supp_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6vlight_supp_blend.tga
+		map textures/parpax_evillair_src/e6vlight_supp_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6x_supprt_s
+textures/parpax_evillair/e6x_supprt
 {
-	qer_editorimage textures/parpax_evillair/e6x_supprt.tga
+	qer_editorImage textures/parpax_evillair_src/e6x_supprt_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6x_supprt.tga
+		map textures/parpax_evillair_src/e6x_supprt_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1898,16 +1898,16 @@ textures/parpax_evillair/e6x_supprt_s
 	}
 }
 
-textures/parpax_evillair/e6xrst_supprt_s
+textures/parpax_evillair/e6xrst_supprt
 {
-	qer_editorimage textures/parpax_evillair/e6xrst_supprt.tga
+	qer_editorImage textures/parpax_evillair_src/e6xrst_supprt_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6xrst_supprt.tga
+		map textures/parpax_evillair_src/e6xrst_supprt_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -1918,34 +1918,34 @@ textures/parpax_evillair/e6xrst_supprt_s
 	}
 }
 
-textures/parpax_evillair/e6btrim_light_s_nolight
+textures/parpax_evillair/e6btrim_light_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6btrim_light.tga
+	qer_editorImage textures/parpax_evillair_src/e6btrim_light_d
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6btrim_light.tga
+		map textures/parpax_evillair_src/e6btrim_light_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6btrim_light_blend.tga
+		map textures/parpax_evillair_src/e6btrim_light_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6metalfan_s
+textures/parpax_evillair/e6metalfan
 {
-	qer_editorimage textures/parpax_evillair/e6metalfan.tga
+	qer_editorImage textures/parpax_evillair_src/e6metalfan_d
 
 	{
-		map textures/parpax_evillair/e6metalfan_blade.tga
+		map textures/parpax_evillair_src/e6metalfan_blade_d
 		tcmod rotate 5000
 	}
 	{
-		map textures/parpax_evillair/e6metalfan.tga
+		map textures/parpax_evillair_src/e6metalfan_d
 		blendfunc blend
 	}
 	{
@@ -1954,70 +1954,70 @@ textures/parpax_evillair/e6metalfan_s
 	}
 }
 
-textures/parpax_evillair/e6strimlight_s_nolight
+textures/parpax_evillair/e6strimlight_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6strimlight.tga
+	qer_editorImage textures/parpax_evillair_src/e6strimlight_d
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6strimlight.tga
+		map textures/parpax_evillair_src/e6strimlight_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6strimlight_blend.tga
+		map textures/parpax_evillair_src/e6strimlight_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6trim_bsrlight_s_nolight
+textures/parpax_evillair/e6trim_bsrlight_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6trim_bsrlight.tga
+	qer_editorImage textures/parpax_evillair_src/e6trim_bsrlight_d
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6trim_bsrlight.tga
+		map textures/parpax_evillair_src/e6trim_bsrlight_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6trim_bsrlight_blend.tga
+		map textures/parpax_evillair_src/e6trim_bsrlight_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6trim_light_s_nolight
+textures/parpax_evillair/e6trim_light_nolight
 {
-	qer_editorimage textures/parpax_evillair/e6trim_light.tga
+	qer_editorImage textures/parpax_evillair_src/e6trim_light_d
 	surfaceparm nomarks
 
 	{
-		map textures/parpax_evillair/e6trim_light.tga
+		map textures/parpax_evillair_src/e6trim_light_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_evillair/e6trim_light_blend.tga
+		map textures/parpax_evillair_src/e6trim_light_blend_d
 		blendfunc add
 	}
 }
 
-textures/parpax_evillair/e6girdergrate_s
+textures/parpax_evillair/e6girdergrate
 {
-	qer_editorimage textures/parpax_evillair/e6girdergrate.tga
+	qer_editorImage textures/parpax_evillair_src/e6girdergrate_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6girdergrate.tga
+		map textures/parpax_evillair_src/e6girdergrate_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -2028,16 +2028,16 @@ textures/parpax_evillair/e6girdergrate_s
 	}
 }
 
-textures/parpax_evillair/e6girdergrate2b_s
+textures/parpax_evillair/e6girdergrate2b
 {
-	qer_editorimage textures/parpax_evillair/e6girdergrate2b.tga
+	qer_editorImage textures/parpax_evillair_src/e6girdergrate2b_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6girdergrate2b.tga
+		map textures/parpax_evillair_src/e6girdergrate2b_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -2048,16 +2048,16 @@ textures/parpax_evillair/e6girdergrate2b_s
 	}
 }
 
-textures/parpax_evillair/e6girdersupport_s
+textures/parpax_evillair/e6girdersupport
 {
-	qer_editorimage textures/parpax_evillair/e6girdersupport.tga
+	qer_editorImage textures/parpax_evillair_src/e6girdersupport_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6girdersupport.tga
+		map textures/parpax_evillair_src/e6girdersupport_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -2068,16 +2068,16 @@ textures/parpax_evillair/e6girdersupport_s
 	}
 }
 
-textures/parpax_evillair/e6indsdoor_s
+textures/parpax_evillair/e6indsdoor
 {
-	qer_editorimage textures/parpax_evillair/e6indsdoor.tga
+	qer_editorImage textures/parpax_evillair_src/e6indsdoor_d
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
 	cull none
 
 	{
-		map textures/parpax_evillair/e6indsdoor.tga
+		map textures/parpax_evillair_src/e6indsdoor_d
 		alphafunc GE128
 		depthwrite
 	}
@@ -2089,19 +2089,19 @@ textures/parpax_evillair/e6indsdoor_s
 }
 
 textures/parpax_evillair/e6tdoor
-{	
-	qer_editorimage textures/parpax_evillair/e6tdoor.tga
-	
+{
+	qer_editorImage textures/parpax_evillair_src/e6tdoor_d
+
 	{
-		map textures/parpax_evillair/e6tdoor.tga
+		map textures/parpax_evillair_src/e6tdoor_d
 	}
 	{
-		map textures/parpax_evillair/e6tdoor_fx.tga
+		map textures/parpax_evillair_src/e6tdoor_fx_d
 		tcmod scroll -1 0
 		blendFunc add
 	}
 	{
-		map textures/parpax_evillair/e6tdoor.tga
+		map textures/parpax_evillair_src/e6tdoor_d
 		blendFunc blend
 	}
 	{
@@ -2112,13 +2112,13 @@ textures/parpax_evillair/e6tdoor
 
 textures/parpax_evillair/e8btrimlight
 {
-	qer_editorimage textures/parpax_evillair/e8btrimlight.tga
-	q3map_lightimage textures/parpax_evillair/e8btrimlight.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8btrimlight_d
+	q3map_lightImage textures/parpax_evillair_src/e8btrimlight_a
 	surfaceparm nomarks
 	q3map_surfacelight 250
 
 	{
-		map textures/parpax_evillair/e8btrimlight.tga
+		map textures/parpax_evillair_src/e8btrimlight_d
 	}
 	{
 		map $lightmap
@@ -2126,20 +2126,20 @@ textures/parpax_evillair/e8btrimlight
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8btrimlight.blend.tga
+		map textures/parpax_evillair_src/e8btrimlight_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8trimlight
 {
-	qer_editorimage textures/parpax_evillair/e8trimlight.tga
-	q3map_lightimage textures/parpax_evillair/e8trimlight.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8trimlight_d
+	q3map_lightImage textures/parpax_evillair_src/e8trimlight_a
 	surfaceparm nomarks
 	q3map_surfacelight 250
 
 	{
-		map textures/parpax_evillair/e8trimlight.tga
+		map textures/parpax_evillair_src/e8trimlight_d
 	}
 	{
 		map $lightmap
@@ -2147,20 +2147,20 @@ textures/parpax_evillair/e8trimlight
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8trimlight.blend.tga
+		map textures/parpax_evillair_src/e8trimlight_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8warn2steplight
 {
-	qer_editorimage textures/parpax_evillair/e8warn2steplight.tga
-	q3map_lightimage textures/parpax_evillair/e8warn2steplight.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8warn2steplight_d
+	q3map_lightImage textures/parpax_evillair_src/e8warn2steplight_a
 	surfaceparm nomarks
 	q3map_surfacelight 250
 
 	{
-		map textures/parpax_evillair/e8warn2steplight.tga
+		map textures/parpax_evillair_src/e8warn2steplight_d
 	}
 	{
 		map $lightmap
@@ -2168,20 +2168,20 @@ textures/parpax_evillair/e8warn2steplight
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8warn2steplight.blend.tga
+		map textures/parpax_evillair_src/e8warn2steplight_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8minitrimlight
 {
-	qer_editorimage textures/parpax_evillair/e8minitrimlight.tga
-	q3map_lightimage textures/parpax_evillair/e8minitrimlight.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8minitrimlight_d
+	q3map_lightImage textures/parpax_evillair_src/e8minitrimlight_a
 	surfaceparm nomarks
 	q3map_surfacelight 250
 
 	{
-		map textures/parpax_evillair/e8minitrimlight.tga
+		map textures/parpax_evillair_src/e8minitrimlight_d
 	}
 	{
 		map $lightmap
@@ -2189,30 +2189,30 @@ textures/parpax_evillair/e8minitrimlight
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8minitrimlight.blend.tga
+		map textures/parpax_evillair_src/e8minitrimlight_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8_jumppad02
 {
-	q3map_lightimage textures/parpax_evillair/e8_jumppad02_fx.tga
+	q3map_lightImage textures/parpax_evillair_src/e8_jumppad02_fx_d
 	surfaceparm metalsteps
 	q3map_surfacelight 100
 
 	{
-		map textures/parpax_evillair/e8_jumppad02_fx.tga
+		map textures/parpax_evillair_src/e8_jumppad02_fx_d
 		blendfunc add
 		tcMod rotate 360
 		tcMod stretch sin 1 0.8 1 0.4
 	}
 	{
-		map textures/parpax_evillair/e8_jumppad02.tga
+		map textures/parpax_evillair_src/e8_jumppad02_d
 		blendfunc add
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e8_jumppad02.tga
+		map textures/parpax_evillair_src/e8_jumppad02_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -2226,13 +2226,13 @@ textures/parpax_evillair/e8_jumppad02
 
 textures/parpax_evillair/e8_rlightb2
 {
-	qer_editorimage textures/parpax_evillair/e8_rlightb2.tga
-	q3map_lightimage textures/parpax_evillair/e8_rlightb2.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8_rlightb2_d
+	q3map_lightImage textures/parpax_evillair_src/e8_rlightb2_a
 	surfaceparm nomarks
 	q3map_surfacelight 450
 
 	{
-		map textures/parpax_evillair/e8_rlightb2.tga
+		map textures/parpax_evillair_src/e8_rlightb2_d
 	}
 	{
 		map $lightmap
@@ -2240,20 +2240,20 @@ textures/parpax_evillair/e8_rlightb2
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8_rlightb2.blend.tga
+		map textures/parpax_evillair_src/e8_rlightb2_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8_rlightb
 {
-	qer_editorimage textures/parpax_evillair/e8_rlightb.tga
-	q3map_lightimage textures/parpax_evillair/e8_rlightb.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8_rlightb_d
+	q3map_lightImage textures/parpax_evillair_src/e8_rlightb_a
 	surfaceparm nomarks
 	q3map_surfacelight 450
 
 	{
-		map textures/parpax_evillair/e8_rlightb.tga
+		map textures/parpax_evillair_src/e8_rlightb_d
 	}
 	{
 		map $lightmap
@@ -2261,20 +2261,20 @@ textures/parpax_evillair/e8_rlightb
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8_rlightb.blend.tga
+		map textures/parpax_evillair_src/e8_rlightb_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/evil8_rlight
 {
-	qer_editorimage textures/parpax_evillair/e8_rlight.tga
-	q3map_lightimage textures/parpax_evillair/e8_rlight.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8_rlight_d
+	q3map_lightImage textures/parpax_evillair_src/e8_rlight_a
 	surfaceparm nomarks
 	q3map_surfacelight 950
 
 	{
-		map textures/parpax_evillair/e8_rlight.tga
+		map textures/parpax_evillair_src/e8_rlight_d
 	}
 	{
 		map $lightmap
@@ -2282,20 +2282,20 @@ textures/parpax_evillair/evil8_rlight
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8_rlight.blend.tga
+		map textures/parpax_evillair_src/e8_rlight_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8tmtllight
 {
-	qer_editorimage textures/parpax_evillair/e8tmtllight.tga
-	q3map_lightimage textures/parpax_evillair/e8tmtllight.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8tmtllight_d
+	q3map_lightImage textures/parpax_evillair_src/e8tmtllight_a
 	surfaceparm nomarks
 	q3map_surfacelight 950
 
 	{
-		map textures/parpax_evillair/e8tmtllight.tga
+		map textures/parpax_evillair_src/e8tmtllight_d
 	}
 	{
 		map $lightmap
@@ -2303,20 +2303,20 @@ textures/parpax_evillair/e8tmtllight
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8tmtllight.blend.tga
+		map textures/parpax_evillair_src/e8tmtllight_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8tmtllight2
 {
-	qer_editorimage textures/parpax_evillair/e8tmtllight2.tga
-	q3map_lightimage textures/parpax_evillair/e8tmtllight2.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8tmtllight2_d
+	q3map_lightImage textures/parpax_evillair_src/e8tmtllight2_a
 	surfaceparm nomarks
 	q3map_surfacelight 950
 
 	{
-		map textures/parpax_evillair/e8tmtllight2.tga
+		map textures/parpax_evillair_src/e8tmtllight2_d
 	}
 	{
 		map $lightmap
@@ -2324,20 +2324,20 @@ textures/parpax_evillair/e8tmtllight2
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8tmtllight2.blend.tga
+		map textures/parpax_evillair_src/e8tmtllight2_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8tmtllight2b
 {
-	qer_editorimage textures/parpax_evillair/e8tmtllight2b.tga
-	q3map_lightimage textures/parpax_evillair/e8tmtllight2b.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8tmtllight2b_d
+	q3map_lightImage textures/parpax_evillair_src/e8tmtllight2b_a
 	surfaceparm nomarks
 	q3map_surfacelight 950
 
 	{
-		map textures/parpax_evillair/e8tmtllight2b.tga
+		map textures/parpax_evillair_src/e8tmtllight2b_d
 	}
 	{
 		map $lightmap
@@ -2345,7 +2345,7 @@ textures/parpax_evillair/e8tmtllight2b
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8tmtllight2b.blend.tga
+		map textures/parpax_evillair_src/e8tmtllight2b_a
 		blendfunc add
 	}
 }
@@ -2355,7 +2355,7 @@ textures/parpax_evillair/e8xgirder_small2
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8xgirder_small2.tga
+		map textures/parpax_evillair_src/e8xgirder_small2_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -2376,7 +2376,7 @@ textures/parpax_evillair/e8alphaspawn
 	surfaceparm pointlight
 
 	{
-		map textures/parpax_evillair/e8alphaspawn.tga
+		map textures/parpax_evillair_src/e8alphaspawn_d
 		blendfunc add
 		rgbGen Vertex
 	}
@@ -2389,7 +2389,7 @@ textures/parpax_evillair/e8yarrow
 	surfaceparm pointlight
 
 	{
-		map textures/parpax_evillair/e8yarrow.tga
+		map textures/parpax_evillair_src/e8yarrow_d
 		blendfunc add
 		rgbGen Vertex
 	}
@@ -2397,12 +2397,12 @@ textures/parpax_evillair/e8yarrow
 
 textures/parpax_evillair/e8lighttrim_static
 {
-	qer_editorimage textures/parpax_evillair/e8lighttrim.tga
+	qer_editorImage textures/parpax_evillair_src/e8lighttrim_d
 	surfaceparm nomarks
 	q3map_surfacelight 400
 
 	{
-		map textures/parpax_evillair/e8lighttrim.tga
+		map textures/parpax_evillair_src/e8lighttrim_d
 	}
 	{
 		map $lightmap
@@ -2410,19 +2410,19 @@ textures/parpax_evillair/e8lighttrim_static
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8lighttrim.blend.tga
+		map textures/parpax_evillair_src/e8lighttrim_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8lighttrim_glow
 {
-	qer_editorimage textures/parpax_evillair/e8lighttrim.tga
+	qer_editorImage textures/parpax_evillair_src/e8lighttrim_d
 	surfaceparm nomarks
 	q3map_surfacelight 400
 
 	{
-		map textures/parpax_evillair/e8lighttrim.tga
+		map textures/parpax_evillair_src/e8lighttrim_d
 	}
 	{
 		map $lightmap
@@ -2430,7 +2430,7 @@ textures/parpax_evillair/e8lighttrim_glow
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8lighttrim.blend.tga
+		map textures/parpax_evillair_src/e8lighttrim_a
 		blendfunc add
 		rgbGen wave sawtooth 0.2 1 1 0.2
 	}
@@ -2438,12 +2438,12 @@ textures/parpax_evillair/e8lighttrim_glow
 
 textures/parpax_evillair/e8lighttrim_b_static
 {
-	qer_editorimage textures/parpax_evillair/e8lighttrim_b.tga
+	qer_editorImage textures/parpax_evillair_src/e8lighttrim_b
 	surfaceparm nomarks
 	q3map_surfacelight 400
 
 	{
-		map textures/parpax_evillair/e8lighttrim_b.tga
+		map textures/parpax_evillair_src/e8lighttrim_b
 	}
 	{
 		map $lightmap
@@ -2451,19 +2451,19 @@ textures/parpax_evillair/e8lighttrim_b_static
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8lighttrim_b.blend.tga
+		map textures/parpax_evillair_src/e8lighttrim_b_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8lighttrim_b_glow
 {
-	qer_editorimage textures/parpax_evillair/e8lighttrim_b.tga
+	qer_editorImage textures/parpax_evillair_src/e8lighttrim_b
 	surfaceparm nomarks
 	q3map_surfacelight 400
 
 	{
-		map textures/parpax_evillair/e8lighttrim_b.tga
+		map textures/parpax_evillair_src/e8lighttrim_b
 	}
 	{
 		map $lightmap
@@ -2471,7 +2471,7 @@ textures/parpax_evillair/e8lighttrim_b_glow
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8lighttrim_b.blend.tga
+		map textures/parpax_evillair_src/e8lighttrim_b_a
 		blendfunc add
 		rgbGen wave sawtooth 0.2 1 1 0.2
 	}
@@ -2479,17 +2479,17 @@ textures/parpax_evillair/e8lighttrim_b_glow
 
 textures/parpax_evillair/e8jumpspawn02
 {
-	q3map_lightimage textures/parpax_evillair/e8jumpspawn02_fx.tga
+	q3map_lightImage textures/parpax_evillair_src/e8jumpspawn02_fx_d
 	surfaceparm metalsteps
 	q3map_surfacelight 100
 
 	{
-		map textures/parpax_evillair/e8jumpspawn02_fx.tga
+		map textures/parpax_evillair_src/e8jumpspawn02_fx_d
 		rgbGen identity
 		tcMod rotate 760
 	}
 	{
-		map textures/parpax_evillair/e8jumpspawn02.tga
+		map textures/parpax_evillair_src/e8jumpspawn02_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -2503,17 +2503,17 @@ textures/parpax_evillair/e8jumpspawn02
 
 textures/parpax_evillair/e8jumpspawn02b
 {
-	q3map_lightimage textures/parpax_evillair/e8jumpspawn02_fx.tga
+	q3map_lightImage textures/parpax_evillair_src/e8jumpspawn02_fx_d
 	surfaceparm metalsteps
 	q3map_surfacelight 100
 
 	{
-		map textures/parpax_evillair/e8jumpspawn02_fx.tga
+		map textures/parpax_evillair_src/e8jumpspawn02_fx_d
 		rgbGen identity
 		tcMod rotate 760
 	}
 	{
-		map textures/parpax_evillair/e8jumpspawn02b.tga
+		map textures/parpax_evillair_src/e8jumpspawn02b_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -2527,17 +2527,17 @@ textures/parpax_evillair/e8jumpspawn02b
 
 textures/parpax_evillair/e8jumpspawn02c
 {
-	q3map_lightimage textures/parpax_evillair/e8jumpspawn02_fx.tga
+	q3map_lightImage textures/parpax_evillair_src/e8jumpspawn02_fx_d
 	surfaceparm metalsteps
 	q3map_surfacelight 100
 
 	{
-		map textures/parpax_evillair/e8jumpspawn02_fx.tga
+		map textures/parpax_evillair_src/e8jumpspawn02_fx_d
 		rgbGen identity
 		tcMod rotate 760
 	}
 	{
-		map textures/parpax_evillair/e8jumpspawn02c.tga
+		map textures/parpax_evillair_src/e8jumpspawn02c_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -2551,22 +2551,22 @@ textures/parpax_evillair/e8jumpspawn02c
 
 textures/parpax_evillair/e8_launchpad1
 {
-	q3map_lightimage textures/parpax_evillair/e8_launchpad1.blend.tga
+	q3map_lightImage textures/parpax_evillair_src/e8_launchpad1_a
 	surfaceparm metalsteps
 	q3map_surfacelight 100
 
 	{
-		map textures/parpax_evillair/e8_launchpad1_fx.tga
+		map textures/parpax_evillair_src/e8_launchpad1_fx_d
 		rgbGen identity
 		tcMod scroll 0 3
 	}
 	{
-		map textures/parpax_evillair/e8_launchpad1.tga
+		map textures/parpax_evillair_src/e8_launchpad1_d
 		blendfunc blend
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e8_launchpad1.blend.tga
+		map textures/parpax_evillair_src/e8_launchpad1_a
 		blendfunc add
 		rgbGen wave triangle 0.2 2 1 2
 	}
@@ -2585,7 +2585,7 @@ textures/parpax_evillair/e8red_dcl
 	surfaceparm pointlight
 
 	{
-		map textures/parpax_evillair/e8red_dcl.tga
+		map textures/parpax_evillair_src/e8red_dcl_d
 		blendfunc add
 		rgbGen Vertex
 	}
@@ -2598,7 +2598,7 @@ textures/parpax_evillair/e8blue_dcl
 	surfaceparm pointlight
 
 	{
-		map textures/parpax_evillair/e8blue_dcl.tga
+		map textures/parpax_evillair_src/e8blue_dcl_d
 		blendfunc add
 		rgbGen Vertex
 	}
@@ -2614,7 +2614,7 @@ textures/parpax_evillair/e8xgirder
 	nopicmip
 
 	{
-		map textures/parpax_evillair/e8xgirder.tga
+		map textures/parpax_evillair_src/e8xgirder_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -2633,7 +2633,7 @@ textures/parpax_evillair/e8xgirder_small
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8xgirder_small.tga
+		map textures/parpax_evillair_src/e8xgirder_small_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -2655,7 +2655,7 @@ textures/parpax_evillair/e8mtltrim2
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8mtltrim2.tga
+		map textures/parpax_evillair_src/e8mtltrim2_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -2677,7 +2677,7 @@ textures/parpax_evillair/e8wrntrim2
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8wrntrim2.tga
+		map textures/parpax_evillair_src/e8wrntrim2_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -2699,7 +2699,7 @@ textures/parpax_evillair/e8mtltrim2
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8mtltrim2.tga
+		map textures/parpax_evillair_src/e8mtltrim2_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -2720,7 +2720,7 @@ textures/parpax_evillair/e8bgrate01
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8bgrate01.tga
+		map textures/parpax_evillair_src/e8bgrate01_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -2741,7 +2741,7 @@ textures/parpax_evillair/e8rail
 	nomipmaps
 
 	{
-		map textures/parpax_evillair/e8rail.tga
+		map textures/parpax_evillair_src/e8rail_d
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
@@ -2763,7 +2763,7 @@ textures/parpax_evillair/e8icon_red
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8icon_red.tga
+		map textures/parpax_evillair_src/e8icon_red_d
 		blendfunc add
 		rgbGen wave triangle 0.2 0.5 0 0.2
 	}
@@ -2777,7 +2777,7 @@ textures/parpax_evillair/e8icon_blue
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8icon_blue.tga
+		map textures/parpax_evillair_src/e8icon_blue_d
 		blendfunc add
 		rgbGen wave triangle 0.2 0.5 0 0.2
 	}
@@ -2792,7 +2792,7 @@ textures/parpax_evillair/e8scuffs1
 	qer_trans 0.4
 
 	{
-		map textures/parpax_evillair/e8scuffs1.tga
+		map textures/parpax_evillair_src/e8scuffs1_d
 		blendfunc blend
 		rgbGen Vertex
 		depthWrite
@@ -2806,7 +2806,7 @@ textures/parpax_evillair/e8circle_red
 	surfaceparm trans
 
 	{
-		map textures/parpax_evillair/e8circle_red.tga
+		map textures/parpax_evillair_src/e8circle_red_d
 		blendfunc add
 		rgbGen identity
 	}
@@ -2819,7 +2819,7 @@ textures/parpax_evillair/e8circle_blue
 	surfaceparm trans
 
 	{
-		map textures/parpax_evillair/e8circle_blue.tga
+		map textures/parpax_evillair_src/e8circle_blue_d
 		blendfunc add
 		rgbGen identity
 	}
@@ -2827,14 +2827,14 @@ textures/parpax_evillair/e8circle_blue
 
 textures/parpax_evillair/e8circle_red_fade
 {
-	qer_editorimage textures/parpax_evillair/e8circle_red.tga
+	qer_editorImage textures/parpax_evillair_src/e8circle_red_d
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8circle_red.tga
+		map textures/parpax_evillair_src/e8circle_red_d
 		blendfunc add
 		rgbGen wave triangle 0.2 0.5 0 0.5
 	}
@@ -2842,14 +2842,14 @@ textures/parpax_evillair/e8circle_red_fade
 
 textures/parpax_evillair/e8circle_blue_fade
 {
-	qer_editorimage textures/parpax_evillair/e8circle_blue.tga
+	qer_editorImage textures/parpax_evillair_src/e8circle_blue_d
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
 
 	{
-		map textures/parpax_evillair/e8circle_blue.tga
+		map textures/parpax_evillair_src/e8circle_blue_d
 		blendfunc add
 		rgbGen wave triangle 0.2 0.5 0 0.5
 	}
@@ -2858,14 +2858,14 @@ textures/parpax_evillair/e8circle_blue_fade
 textures/parpax_evillair/e8spawn01b
 {
 	{
-		map textures/parpax_evillair/proto_zzztblu2.tga
+		map textures/parpax_evillair_src/proto_zzztblu2_d
 		rgbGen identity
 		tcMod turb 0 0.5 0 9.6
 		tcMod scale 2 2
 		tcMod scroll 9 5
 	}
 	{
-		map textures/parpax_evillair/e8spawn01b.tga
+		map textures/parpax_evillair_src/e8spawn01b_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -2879,7 +2879,7 @@ textures/parpax_evillair/e8spawn01b
 
 textures/parpax_evillair/e8trim_bluefx
 {
-	q3map_lightimage textures/parpax_evillair/evil8_trimfx_b.tga
+	q3map_lightImage textures/parpax_evillair_src/evil8_trimfx_b
 	q3map_surfacelight 100
 
 	{
@@ -2888,12 +2888,12 @@ textures/parpax_evillair/e8trim_bluefx
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8trim_bluefx.tga
+		map textures/parpax_evillair_src/e8trim_bluefx_d
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e8trimfx_b.tga
+		map textures/parpax_evillair_src/e8trimfx_b
 		blendfunc add
 		tcMod scroll -2 0
 	}
@@ -2901,7 +2901,7 @@ textures/parpax_evillair/e8trim_bluefx
 
 textures/parpax_evillair/e8trim_redfx
 {
-	q3map_lightimage textures/parpax_evillair/e8trimfx_r.tga
+	q3map_lightImage textures/parpax_evillair_src/e8trimfx_r_d
 	q3map_surfacelight 100
 
 	{
@@ -2910,12 +2910,12 @@ textures/parpax_evillair/e8trim_redfx
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8trim_redfx.tga
+		map textures/parpax_evillair_src/e8trim_redfx_d
 		blendfunc filter
 		rgbGen identity
 	}
 	{
-		map textures/parpax_evillair/e8trimfx_r.tga
+		map textures/parpax_evillair_src/e8trimfx_r_d
 		blendfunc add
 		tcMod scroll -2 0
 	}
@@ -2928,7 +2928,7 @@ textures/parpax_evillair/e8evilspacetxt
 	surfaceparm pointlight
 
 	{
-		map textures/parpax_evillair/e8evilspacetxt.tga
+		map textures/parpax_evillair_src/e8evilspacetxt_d
 		blendfunc add
 		rgbGen Vertex
 	}
@@ -2936,13 +2936,13 @@ textures/parpax_evillair/e8evilspacetxt
 
 textures/parpax_evillair/e8tinylight
 {
-	qer_editorimage textures/parpax_evillair/e8tinylight.tga
-	q3map_lightimage textures/parpax_evillair/e8tinylight.blend.tga
+	qer_editorImage textures/parpax_evillair_src/e8tinylight_d
+	q3map_lightImage textures/parpax_evillair_src/e8tinylight_a
 	surfaceparm nomarks
 	q3map_surfacelight 950
 
 	{
-		map textures/parpax_evillair/e8tinylight.tga
+		map textures/parpax_evillair_src/e8tinylight_d
 	}
 	{
 		map $lightmap
@@ -2950,19 +2950,19 @@ textures/parpax_evillair/e8tinylight
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8tinylight.blend.tga
+		map textures/parpax_evillair_src/e8tinylight_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8tinylightblue
 {
-	qer_editorimage textures/parpax_evillair/e8tinylightblue.tga
+	qer_editorImage textures/parpax_evillair_src/e8tinylightblue_d
 	surfaceparm nomarks
 	q3map_surfacelight 950
 
 	{
-		map textures/parpax_evillair/e8tinylightblue.tga
+		map textures/parpax_evillair_src/e8tinylightblue_d
 	}
 	{
 		map $lightmap
@@ -2970,14 +2970,14 @@ textures/parpax_evillair/e8tinylightblue
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8tinylightblue.blend.tga
+		map textures/parpax_evillair_src/e8tinylightblue_a
 		blendfunc add
 	}
 }
 
 textures/parpax_evillair/e8beam
 {
-	qer_editorimage textures/parpax_evillair/e8beam.tga
+	qer_editorImage textures/parpax_evillair_src/e8beam_d
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -2986,7 +2986,7 @@ textures/parpax_evillair/e8beam
 	qer_trans 0.6
 
 	{
-		map textures/parpax_evillair/e8beam.tga
+		map textures/parpax_evillair_src/e8beam_d
 		blendfunc add
 		tcMod scroll 0.3 0
 	}
@@ -2994,7 +2994,7 @@ textures/parpax_evillair/e8beam
 
 textures/parpax_evillair/e8beam_blue
 {
-	qer_editorimage textures/parpax_evillair/e8beam_blue.tga
+	qer_editorImage textures/parpax_evillair_src/e8beam_blue_d
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -3003,7 +3003,7 @@ textures/parpax_evillair/e8beam_blue
 	qer_trans 0.6
 
 	{
-		map textures/parpax_evillair/e8beam_blue.tga
+		map textures/parpax_evillair_src/e8beam_blue_d
 		blendfunc add
 		tcMod scroll 0.3 0
 	}
@@ -3011,15 +3011,15 @@ textures/parpax_evillair/e8beam_blue
 
 textures/parpax_evillair/e8metal03c_shiney
 {
-	qer_editorimage textures/parpax_evillair/e8metal03c.tga
+	qer_editorImage textures/parpax_evillair_src/e8metal03c_d
 
 	{
-		map textures/parpax_evillair/tinfx.tga
+		map textures/parpax_evillair_src/tinfx_d
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/parpax_evillair/e8metal03c.tga
+		map textures/parpax_evillair_src/e8metal03c_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -3033,15 +3033,15 @@ textures/parpax_evillair/e8metal03c_shiney
 
 textures/parpax_evillair/e8metal_blue_shiney
 {
-	qer_editorimage textures/parpax_evillair/e8metal_blue.tga
+	qer_editorImage textures/parpax_evillair_src/e8metal_blue_d
 
 	{
-		map textures/parpax_evillair/tinfx.tga
+		map textures/parpax_evillair_src/tinfx_d
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/parpax_evillair/e8metal_blue.tga
+		map textures/parpax_evillair_src/e8metal_blue_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -3055,15 +3055,15 @@ textures/parpax_evillair/e8metal_blue_shiney
 
 textures/parpax_evillair/e8metal_red_shiney
 {
-	qer_editorimage textures/parpax_evillair/e8metal_red.tga
+	qer_editorImage textures/parpax_evillair_src/e8metal_red_d
 
 	{
-		map textures/parpax_evillair/tinfx.tga
+		map textures/parpax_evillair_src/tinfx_d
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/parpax_evillair/e8metal_red.tga
+		map textures/parpax_evillair_src/e8metal_red_d
 		blendfunc blend
 		rgbGen identity
 	}
@@ -3078,7 +3078,7 @@ textures/parpax_evillair/e8metal_red_shiney
 // duplicate version
 //textures/parpax_evillair/e8trimlight
 //{
-//	q3map_lightimage textures/parpax_evillair/e8trimlight_fx.tga
+//	q3map_lightImage textures/parpax_evillair_src/e8trimlight_fx_d
 //	q3map_surfacelight 100
 //
 //	{
@@ -3087,12 +3087,12 @@ textures/parpax_evillair/e8metal_red_shiney
 //		tcGen lightmap
 //	}
 //	{
-//		map textures/parpax_evillair/e8trimlight.tga
+//		map textures/parpax_evillair_src/e8trimlight_d
 //		blendfunc filter
 //		rgbGen identity
 //	}
 //	{
-//		map textures/parpax_evillair/e8trimlight_fx.tga
+//		map textures/parpax_evillair_src/e8trimlight_fx_d
 //		blendfunc add
 //		tcMod scroll -2 0
 //	}
@@ -3100,12 +3100,12 @@ textures/parpax_evillair/e8metal_red_shiney
 
 textures/parpax_evillair/e8trimlight2_blue
 {
-	qer_editorimage textures/parpax_evillair/e8trimlight2_blue.tga
+	qer_editorImage textures/parpax_evillair_src/e8trimlight2_blue_d
 	surfaceparm nomarks
 	q3map_surfacelight 400
 
 	{
-		map textures/parpax_evillair/e8trimlight2_blue.tga
+		map textures/parpax_evillair_src/e8trimlight2_blue_d
 	}
 	{
 		map $lightmap
@@ -3113,7 +3113,7 @@ textures/parpax_evillair/e8trimlight2_blue
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8trimlight2_blue.blend.tga
+		map textures/parpax_evillair_src/e8trimlight2_blue_a
 		blendfunc add
 		tcMod scroll -0.7 0
 	}
@@ -3121,12 +3121,12 @@ textures/parpax_evillair/e8trimlight2_blue
 
 textures/parpax_evillair/e8trimlight2_red
 {
-	qer_editorimage textures/parpax_evillair/e8trimlight2_red.tga
+	qer_editorImage textures/parpax_evillair_src/e8trimlight2_red_d
 	surfaceparm nomarks
 	q3map_surfacelight 400
 
 	{
-		map textures/parpax_evillair/e8trimlight2_red.tga
+		map textures/parpax_evillair_src/e8trimlight2_red_d
 	}
 	{
 		map $lightmap
@@ -3134,7 +3134,7 @@ textures/parpax_evillair/e8trimlight2_red
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8trimlight2_red.blend.tga
+		map textures/parpax_evillair_src/e8trimlight2_red_a
 		blendfunc add
 		tcMod scroll -0.7 0
 	}
@@ -3142,7 +3142,7 @@ textures/parpax_evillair/e8trimlight2_red
 
 textures/parpax_evillair/e8clangfloor
 {
-	//qer_editorimage textures/parpax_evillair/e8clangfloor.tga
+	//qer_editorImage textures/parpax_evillair_src/e8clangfloor_d
 	surfaceparm metalsteps
 
 	{
@@ -3151,7 +3151,7 @@ textures/parpax_evillair/e8clangfloor
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor.tga
+		map textures/parpax_evillair_src/e8clangfloor_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3167,7 +3167,7 @@ textures/parpax_evillair/e8clangfloor01
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor01.tga
+		map textures/parpax_evillair_src/e8clangfloor01_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3183,7 +3183,7 @@ textures/parpax_evillair/e8clangfloor03
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor03.tga
+		map textures/parpax_evillair_src/e8clangfloor03_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3199,7 +3199,7 @@ textures/parpax_evillair/e8clangfloor04
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor04.tga
+		map textures/parpax_evillair_src/e8clangfloor04_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3215,7 +3215,7 @@ textures/parpax_evillair/e8clangfloor04_blue
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor04_blue.tga
+		map textures/parpax_evillair_src/e8clangfloor04_blue_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3231,7 +3231,7 @@ textures/parpax_evillair/e8clangfloor04_red
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor04_red.tga
+		map textures/parpax_evillair_src/e8clangfloor04_red_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3247,7 +3247,7 @@ textures/parpax_evillair/e8clangfloor04b
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor04b.tga
+		map textures/parpax_evillair_src/e8clangfloor04b_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3263,7 +3263,7 @@ textures/parpax_evillair/e8clangfloor04warn
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor04warn.tga
+		map textures/parpax_evillair_src/e8clangfloor04warn_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3279,7 +3279,7 @@ textures/parpax_evillair/e8clangfloor04warn2
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor04warn2.tga
+		map textures/parpax_evillair_src/e8clangfloor04warn2_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3295,7 +3295,7 @@ textures/parpax_evillair/e8clangfloor05
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor05.tga
+		map textures/parpax_evillair_src/e8clangfloor05_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3311,7 +3311,7 @@ textures/parpax_evillair/e8clangfloor05b
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor05b.tga
+		map textures/parpax_evillair_src/e8clangfloor05b_d
 		blendfunc filter
 		rgbGen identity
 	}
@@ -3327,7 +3327,7 @@ textures/parpax_evillair/e8clangfloor05c
 		tcGen lightmap
 	}
 	{
-		map textures/parpax_evillair/e8clangfloor05c.tga
+		map textures/parpax_evillair_src/e8clangfloor05c_d
 		blendfunc filter
 		rgbGen identity
 	}

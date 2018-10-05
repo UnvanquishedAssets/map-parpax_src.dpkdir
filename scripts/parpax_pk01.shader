@@ -4,7 +4,7 @@
 
 textures/parpax_pk01/door01b_green_norad
 {
-	qer_editorImage     textures/shared_pk01_src/door01b_p
+	qer_editorImage     textures/shared_pk01_src/door01b_d
 
 	diffuseMap          textures/shared_pk01_src/door01b_d
 	normalMap           textures/shared_pk01_src/door01_n
@@ -20,7 +20,7 @@ textures/parpax_pk01/door01b_green_norad
 
 textures/parpax_pk01/door01b_red_norad
 {
-	qer_editorImage     textures/shared_pk01_src/door01b_p
+	qer_editorImage     textures/shared_pk01_src/door01b_d
 
 	diffuseMap          textures/shared_pk01_src/door01b_d
 	normalMap           textures/shared_pk01_src/door01_n
@@ -33,4 +33,3 @@ textures/parpax_pk01/door01b_red_norad
 		blue  0.1
 	}
 }
-

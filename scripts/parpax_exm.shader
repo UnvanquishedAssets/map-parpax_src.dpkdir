@@ -4,7 +4,7 @@
 
 textures/parpax_exm/base1_nonsolid
 {
-	qer_editorImage     textures/shared_exm_src/base1_p
+	qer_editorImage     textures/shared_exm_src/base1_d
 
 	surfaceparm         nonsolid
 

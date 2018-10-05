@@ -1,17 +1,17 @@
 textures/parpax_custom/skill
 {
-	qer_editorimage textures/parpax_custom_src/skill
+	qer_editorImage textures/parpax_custom_src/skill_d
 
-	diffuseMap      textures/parpax_custom_src/skill
+	diffuseMap      textures/parpax_custom_src/skill_d
 }
 
-textures/parpax_custom/button_ee_s
+textures/parpax_custom/button_ee
 {
-	qer_editorimage textures/parpax_custom_src/button_ee.tga
+	qer_editorImage textures/parpax_custom_src/button_ee_d
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_custom_src/button_ee.tga
+		map textures/parpax_custom_src/button_ee_d
 	}
 	{
 		map $lightmap
@@ -19,13 +19,13 @@ textures/parpax_custom/button_ee_s
 	}
 }
 
-textures/parpax_custom/button_vs_s
+textures/parpax_custom/button_vs
 {
-	qer_editorimage textures/parpax_custom_src/button_vs.tga
+	qer_editorImage textures/parpax_custom_src/button_vs_d
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_custom_src/button_vs.tga
+		map textures/parpax_custom_src/button_vs_d
 	}
 	{
 		map $lightmap
@@ -33,52 +33,52 @@ textures/parpax_custom/button_vs_s
 	}
 }
 
-textures/parpax_custom/button_ee_active_s
+textures/parpax_custom/button_ee_active
 {
-	qer_editorimage textures/parpax_custom_src/button_ee.tga
+	qer_editorImage textures/parpax_custom_src/button_ee_d
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_custom_src/button_ee.tga
+		map textures/parpax_custom_src/button_ee_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_custom_src/button_ee.blend.tga
+		map textures/parpax_custom_src/button_ee_a
 		blendfunc add
 		rgbGen wave sin 0.7 0.4 0.5 0.46
 	}
 }
 
-textures/parpax_custom/button_vs_active_s
+textures/parpax_custom/button_vs_active
 {
-	qer_editorimage textures/parpax_custom_src/button_vs.tga
+	qer_editorImage textures/parpax_custom_src/button_vs_d
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_custom_src/button_vs.tga
+		map textures/parpax_custom_src/button_vs_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_custom_src/button_vs.blend.tga
+		map textures/parpax_custom_src/button_vs_a
 		blendfunc add
 		rgbGen wave sin 0.7 0.4 0.5 0.46
 	}
 }
 
 
-textures/parpax_custom/elebutton_s
+textures/parpax_custom/elebutton
 {
-	qer_editorimage textures/parpax_custom_src/elebutton.tga
+	qer_editorImage textures/parpax_custom_src/elebutton_d
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_custom_src/elebutton.tga
+		map textures/parpax_custom_src/elebutton_d
 	}
 	{
 		map $lightmap
@@ -86,58 +86,58 @@ textures/parpax_custom/elebutton_s
 	}
 }
 
-textures/parpax_custom/elebutton_up_s
+textures/parpax_custom/elebutton_up
 {
-	qer_editorimage textures/parpax_custom_src/elebutton.tga
+	qer_editorImage textures/parpax_custom_src/elebutton_d
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_custom_src/elebutton.tga
+		map textures/parpax_custom_src/elebutton_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_custom_src/elebutton_up.blend.tga
+		map textures/parpax_custom_src/elebutton_up_a
 		blendfunc add
 		rgbGen wave sin 0.7 0.4 0.5 0.46
 	}
 }
 
-textures/parpax_custom/elebutton_down_s
+textures/parpax_custom/elebutton_down
 {
-	qer_editorimage textures/parpax_custom_src/elebutton.tga
+	qer_editorImage textures/parpax_custom_src/elebutton_d
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_custom_src/elebutton.tga
+		map textures/parpax_custom_src/elebutton_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_custom_src/elebutton_down.blend.tga
+		map textures/parpax_custom_src/elebutton_down_a
 		blendfunc add
 		rgbGen wave sin 0.7 0.4 0.5 0.46
 	}
 }
 
-textures/parpax_custom/elebutton_go_s
+textures/parpax_custom/elebutton_go
 {
-	qer_editorimage textures/parpax_custom_src/elebutton_go.tga
+	qer_editorImage textures/parpax_custom_src/elebutton_go_d
 	surfaceparm nomarks
-	
+
 	{
-		map textures/parpax_custom_src/elebutton_go.tga
+		map textures/parpax_custom_src/elebutton_go_d
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 	{
-		map textures/parpax_custom_src/elebutton_go.blend.tga
+		map textures/parpax_custom_src/elebutton_go_a
 		blendfunc add
 		rgbGen wave sin 0.7 0.4 0.5 0.46
 	}
@@ -146,13 +146,13 @@ textures/parpax_custom/elebutton_go_s
 textures/parpax_custom/bulb_yellow1_10k
 {
 	q3map_surfacelight 10000
-	q3map_lightimage textures/parpax_custom_src/bulb_yellow1.tga
-	qer_editorimage textures/parpax_custom_src/bulb_yellow1.tga
+	q3map_lightImage textures/parpax_custom_src/bulb_yellow1_d
+	qer_editorImage textures/parpax_custom_src/bulb_yellow1_d
 	surfaceparm nomarks
 	surfaceparm nolightmap
 
 	{
-		map textures/parpax_custom_src/bulb_yellow1.tga
+		map textures/parpax_custom_src/bulb_yellow1_d
 		rgbGen identity
 	}
 }
@@ -160,13 +160,13 @@ textures/parpax_custom/bulb_yellow1_10k
 textures/parpax_custom/bulb_yellow1_20k
 {
 	q3map_surfacelight 20000
-	q3map_lightimage textures/parpax_custom_src/bulb_yellow1.tga
-	qer_editorimage textures/parpax_custom_src/bulb_yellow1.tga
+	q3map_lightImage textures/parpax_custom_src/bulb_yellow1_d
+	qer_editorImage textures/parpax_custom_src/bulb_yellow1_d
 	surfaceparm nomarks
 	surfaceparm nolightmap
 
 	{
-		map textures/parpax_custom_src/bulb_yellow1.tga
+		map textures/parpax_custom_src/bulb_yellow1_d
 		rgbGen identity
 	}
 }
@@ -174,13 +174,13 @@ textures/parpax_custom/bulb_yellow1_20k
 textures/parpax_custom/bulb_blue1_10k
 {
 	q3map_surfacelight 10000
-	q3map_lightimage textures/parpax_custom_src/bulb_blue1.tga
-	qer_editorimage textures/parpax_custom_src/bulb_blue1.tga
+	q3map_lightImage textures/parpax_custom_src/bulb_blue1_d
+	qer_editorImage textures/parpax_custom_src/bulb_blue1_d
 	surfaceparm nomarks
 	surfaceparm nolightmap
 
 	{
-		map textures/parpax_custom_src/bulb_blue1.tga
+		map textures/parpax_custom_src/bulb_blue1_d
 		rgbGen identity
 	}
 }
@@ -188,13 +188,13 @@ textures/parpax_custom/bulb_blue1_10k
 textures/parpax_custom/bulb_blue1_20k
 {
 	q3map_surfacelight 20000
-	q3map_lightimage textures/parpax_custom_src/bulb_blue1.tga
-	qer_editorimage textures/parpax_custom_src/bulb_blue1.tga
+	q3map_lightImage textures/parpax_custom_src/bulb_blue1_d
+	qer_editorImage textures/parpax_custom_src/bulb_blue1_d
 	surfaceparm nomarks
 	surfaceparm nolightmap
 
 	{
-		map textures/parpax_custom_src/bulb_blue1.tga
+		map textures/parpax_custom_src/bulb_blue1_d
 		rgbGen identity
 	}
 }
@@ -203,20 +203,20 @@ textures/parpax_custom/squarelamp_red_5k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 5000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_red.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_red.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_red_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_red_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_red.tga
+		map textures/parpax_custom_src/squarelamp_red_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_red.blend.tga
+		map textures/parpax_custom_src/squarelamp_red_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -225,20 +225,20 @@ textures/parpax_custom/squarelamp_red_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_red.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_red.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_red_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_red_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_red.tga
+		map textures/parpax_custom_src/squarelamp_red_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_red.blend.tga
+		map textures/parpax_custom_src/squarelamp_red_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -247,20 +247,20 @@ textures/parpax_custom/squarelamp_red_20k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 20000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_red.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_red.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_red_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_red_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_red.tga
+		map textures/parpax_custom_src/squarelamp_red_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_red.blend.tga
+		map textures/parpax_custom_src/squarelamp_red_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -269,20 +269,20 @@ textures/parpax_custom/squarelamp_red_40k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 40000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_red.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_red.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_red_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_red_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_red.tga
+		map textures/parpax_custom_src/squarelamp_red_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_red.blend.tga
+		map textures/parpax_custom_src/squarelamp_red_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -291,20 +291,20 @@ textures/parpax_custom/squarelamp_blue_5k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 5000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_blue.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_blue.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_blue_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_blue_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_blue.tga
+		map textures/parpax_custom_src/squarelamp_blue_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_blue.blend.tga
+		map textures/parpax_custom_src/squarelamp_blue_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -313,20 +313,20 @@ textures/parpax_custom/squarelamp_blue_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_blue.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_blue.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_blue_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_blue_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_blue.tga
+		map textures/parpax_custom_src/squarelamp_blue_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_blue.blend.tga
+		map textures/parpax_custom_src/squarelamp_blue_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -335,20 +335,20 @@ textures/parpax_custom/squarelamp_blue_20k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 20000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_blue.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_blue.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_blue_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_blue_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_blue.tga
+		map textures/parpax_custom_src/squarelamp_blue_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_blue.blend.tga
+		map textures/parpax_custom_src/squarelamp_blue_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -357,20 +357,20 @@ textures/parpax_custom/squarelamp_blue_40k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 40000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_blue.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_blue.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_blue_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_blue_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_blue.tga
+		map textures/parpax_custom_src/squarelamp_blue_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_blue.blend.tga
+		map textures/parpax_custom_src/squarelamp_blue_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -379,20 +379,20 @@ textures/parpax_custom/squarelamp_white_5k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 5000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_white.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_white.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_white_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_white_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_white.tga
+		map textures/parpax_custom_src/squarelamp_white_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_white.blend.tga
+		map textures/parpax_custom_src/squarelamp_white_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -401,20 +401,20 @@ textures/parpax_custom/squarelamp_white_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_white.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_white.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_white_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_white_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_white.tga
+		map textures/parpax_custom_src/squarelamp_white_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_white.blend.tga
+		map textures/parpax_custom_src/squarelamp_white_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -423,20 +423,20 @@ textures/parpax_custom/squarelamp_white_20k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 20000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_white.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_white.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_white_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_white_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_white.tga
+		map textures/parpax_custom_src/squarelamp_white_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_white.blend.tga
+		map textures/parpax_custom_src/squarelamp_white_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -445,20 +445,20 @@ textures/parpax_custom/squarelamp_white_40k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 40000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_white.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_white.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_white_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_white_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_white.tga
+		map textures/parpax_custom_src/squarelamp_white_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_white.blend.tga
+		map textures/parpax_custom_src/squarelamp_white_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -467,20 +467,20 @@ textures/parpax_custom/squarelamp_orange_5k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 5000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_orange.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_orange.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_orange_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_orange_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_orange.tga
+		map textures/parpax_custom_src/squarelamp_orange_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_orange.blend.tga
+		map textures/parpax_custom_src/squarelamp_orange_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -489,20 +489,20 @@ textures/parpax_custom/squarelamp_orange_10k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_orange.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_orange.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_orange_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_orange_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_orange.tga
+		map textures/parpax_custom_src/squarelamp_orange_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_orange.blend.tga
+		map textures/parpax_custom_src/squarelamp_orange_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -511,20 +511,20 @@ textures/parpax_custom/squarelamp_orange_20k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 20000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_orange.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_orange.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_orange_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_orange_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_orange.tga
+		map textures/parpax_custom_src/squarelamp_orange_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_orange.blend.tga
+		map textures/parpax_custom_src/squarelamp_orange_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -533,20 +533,20 @@ textures/parpax_custom/squarelamp_orange_40k
 {
 	surfaceparm nomarks
 	q3map_surfacelight 40000
-	q3map_lightimage textures/parpax_custom_src/squarelamp_orange.blend.tga
-	qer_editorimage textures/parpax_custom_src/squarelamp_orange.tga
+	q3map_lightImage textures/parpax_custom_src/squarelamp_orange_a
+	qer_editorImage textures/parpax_custom_src/squarelamp_orange_d
 
 	{
 		map $lightmap
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_orange.tga
+		map textures/parpax_custom_src/squarelamp_orange_d
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 	{
-		map textures/parpax_custom_src/squarelamp_orange.blend.tga
+		map textures/parpax_custom_src/squarelamp_orange_a
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -559,12 +559,12 @@ textures/parpax_custom/flare_white
 	surfaceparm trans
 	cull disable
 
-	qer_editorimage textures/parpax_custom_src/flare.tga
+	qer_editorImage textures/parpax_custom_src/flare_d
 	qer_trans 0.6
 
 	{
 		blend	add
-		map	textures/parpax_custom_src/flare.tga
+		map	textures/parpax_custom_src/flare_d
 		red	0.80
 		green	0.90
 		blue	1.00
@@ -579,12 +579,12 @@ textures/parpax_custom/flare_orange
 	surfaceparm trans
 	cull disable
 
-	qer_editorimage textures/parpax_custom_src/flare.tga
+	qer_editorImage textures/parpax_custom_src/flare_d
 	qer_trans 0.6
 
 	{
 		blend	add
-		map	textures/parpax_custom_src/flare.tga
+		map	textures/parpax_custom_src/flare_d
 		red	1.00
 		green	0.73
 		blue	0.38
@@ -599,12 +599,12 @@ textures/parpax_custom/flare_blue
 	surfaceparm trans
 	cull disable
 
-	qer_editorimage textures/parpax_custom_src/flare.tga
+	qer_editorImage textures/parpax_custom_src/flare_d
 	qer_trans 0.6
 
 	{
 		blend	add
-		map	textures/parpax_custom_src/flare.tga
+		map	textures/parpax_custom_src/flare_d
 		red	0.38
 		green	0.65
 		blue	1.00

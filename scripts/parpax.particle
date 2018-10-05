@@ -4,13 +4,13 @@ parpax/sparks
 	{
 		particle
 		{
-			shader sync gfx/sprites/spark.tga
+			shader sync gfx/sprites/spark
 
 			velocityType static
 			velocityDir linear
 			velocityMagnitude 50~100
 			velocity -0.8 -0.8 -1 ~60
-			
+
 			accelerationType static
 			accelerationDir linear
 			accelerationMagnitude 200~400
@@ -20,7 +20,7 @@ parpax/sparks
 			alpha 200 1 0
 			lifeTime 1000~2500
 			overdrawProtection
-			
+
 			bounce 0.01~0.3
 		}
 

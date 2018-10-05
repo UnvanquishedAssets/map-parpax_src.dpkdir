@@ -4,7 +4,7 @@
 
 textures/parpax_ex/base1a_nonsolid
 {
-	qer_editorImage     textures/shared_ex_src/base1a_p
+	qer_editorImage     textures/shared_ex_src/base1a_d
 
 	surfaceparm         nonsolid
 
@@ -15,7 +15,7 @@ textures/parpax_ex/base1a_nonsolid
 
 textures/parpax_ex/base1b_nonsolid
 {
-	qer_editorImage     textures/shared_ex_src/base1b_p
+	qer_editorImage     textures/shared_ex_src/base1b_d
 
 	surfaceparm         nonsolid
 
@@ -26,7 +26,7 @@ textures/parpax_ex/base1b_nonsolid
 
 textures/parpax_ex/base1d_nonsolid
 {
-	qer_editorImage     textures/shared_ex_src/base1d_p
+	qer_editorImage     textures/shared_ex_src/base1d_d
 
 	surfaceparm         nonsolid
 
