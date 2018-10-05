@@ -48,7 +48,7 @@ textures/parpax_custom/button_ee_active
 	{
 		map textures/parpax_custom_src/button_ee_a
 		blendfunc add
-		rgbGen wave sin 0.7 0.4 0.5 0.46
+		rgbGen wave sin .7 .4 .5 .46
 	}
 }
 
@@ -67,7 +67,7 @@ textures/parpax_custom/button_vs_active
 	{
 		map textures/parpax_custom_src/button_vs_a
 		blendfunc add
-		rgbGen wave sin 0.7 0.4 0.5 0.46
+		rgbGen wave sin .7 .4 .5 .46
 	}
 }
 
@@ -101,7 +101,7 @@ textures/parpax_custom/elebutton_up
 	{
 		map textures/parpax_custom_src/elebutton_up_a
 		blendfunc add
-		rgbGen wave sin 0.7 0.4 0.5 0.46
+		rgbGen wave sin .7 .4 .5 .46
 	}
 }
 
@@ -120,7 +120,7 @@ textures/parpax_custom/elebutton_down
 	{
 		map textures/parpax_custom_src/elebutton_down_a
 		blendfunc add
-		rgbGen wave sin 0.7 0.4 0.5 0.46
+		rgbGen wave sin .7 .4 .5 .46
 	}
 }
 
@@ -139,7 +139,7 @@ textures/parpax_custom/elebutton_go
 	{
 		map textures/parpax_custom_src/elebutton_go_a
 		blendfunc add
-		rgbGen wave sin 0.7 0.4 0.5 0.46
+		rgbGen wave sin .7 .4 .5 .46
 	}
 }
 
@@ -560,14 +560,14 @@ textures/parpax_custom/flare_white
 	cull disable
 
 	qer_editorImage textures/parpax_custom_src/flare_d
-	qer_trans 0.6
+	qer_trans .6
 
 	{
 		blend	add
 		map	textures/parpax_custom_src/flare_d
-		red	0.80
-		green	0.90
-		blue	1.00
+		red	.8
+		green	.9
+		blue	1
 	}
 }
 
@@ -580,14 +580,14 @@ textures/parpax_custom/flare_orange
 	cull disable
 
 	qer_editorImage textures/parpax_custom_src/flare_d
-	qer_trans 0.6
+	qer_trans .6
 
 	{
 		blend	add
 		map	textures/parpax_custom_src/flare_d
-		red	1.00
-		green	0.73
-		blue	0.38
+		red	1
+		green	.73
+		blue	.38
 	}
 }
 
@@ -600,14 +600,14 @@ textures/parpax_custom/flare_blue
 	cull disable
 
 	qer_editorImage textures/parpax_custom_src/flare_d
-	qer_trans 0.6
+	qer_trans .6
 
 	{
 		blend	add
 		map	textures/parpax_custom_src/flare_d
-		red	0.38
-		green	0.65
-		blue	1.00
+		red	.38
+		green	.65
+		blue	1
 	}
 }
 

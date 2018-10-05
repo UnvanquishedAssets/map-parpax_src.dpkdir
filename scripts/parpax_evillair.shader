@@ -409,7 +409,7 @@ textures/parpax_evillair/eq2_telepanel
 	{
 		map textures/parpax_evillair_src/eq2_telegoo_d
 		rgbGen identity
-		tcMod turb 0 0.1 0 0.2
+		tcMod turb 0 .1 0 .2
 	}
 	{
 		map textures/parpax_evillair_src/eq2_telepanel_d
@@ -2204,7 +2204,7 @@ textures/parpax_evillair/e8_jumppad02
 		map textures/parpax_evillair_src/e8_jumppad02_fx_d
 		blendfunc add
 		tcMod rotate 360
-		tcMod stretch sin 1 0.8 1 0.4
+		tcMod stretch sin 1 .8 1 .4
 	}
 	{
 		map textures/parpax_evillair_src/e8_jumppad02_d
@@ -2432,7 +2432,7 @@ textures/parpax_evillair/e8lighttrim_glow
 	{
 		map textures/parpax_evillair_src/e8lighttrim_a
 		blendfunc add
-		rgbGen wave sawtooth 0.2 1 1 0.2
+		rgbGen wave sawtooth .2 1 1 .2
 	}
 }
 
@@ -2473,7 +2473,7 @@ textures/parpax_evillair/e8lighttrim_b_glow
 	{
 		map textures/parpax_evillair_src/e8lighttrim_b_a
 		blendfunc add
-		rgbGen wave sawtooth 0.2 1 1 0.2
+		rgbGen wave sawtooth .2 1 1 .2
 	}
 }
 
@@ -2568,7 +2568,7 @@ textures/parpax_evillair/e8_launchpad1
 	{
 		map textures/parpax_evillair_src/e8_launchpad1_a
 		blendfunc add
-		rgbGen wave triangle 0.2 2 1 2
+		rgbGen wave triangle .2 2 1 2
 	}
 	{
 		map $lightmap
@@ -2765,7 +2765,7 @@ textures/parpax_evillair/e8icon_red
 	{
 		map textures/parpax_evillair_src/e8icon_red_d
 		blendfunc add
-		rgbGen wave triangle 0.2 0.5 0 0.2
+		rgbGen wave triangle .2 .5 0 .2
 	}
 }
 
@@ -2779,7 +2779,7 @@ textures/parpax_evillair/e8icon_blue
 	{
 		map textures/parpax_evillair_src/e8icon_blue_d
 		blendfunc add
-		rgbGen wave triangle 0.2 0.5 0 0.2
+		rgbGen wave triangle .2 .5 0 .2
 	}
 }
 
@@ -2789,7 +2789,7 @@ textures/parpax_evillair/e8scuffs1
 	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
-	qer_trans 0.4
+	qer_trans .4
 
 	{
 		map textures/parpax_evillair_src/e8scuffs1_d
@@ -2836,7 +2836,7 @@ textures/parpax_evillair/e8circle_red_fade
 	{
 		map textures/parpax_evillair_src/e8circle_red_d
 		blendfunc add
-		rgbGen wave triangle 0.2 0.5 0 0.5
+		rgbGen wave triangle .2 .5 0 .5
 	}
 }
 
@@ -2851,7 +2851,7 @@ textures/parpax_evillair/e8circle_blue_fade
 	{
 		map textures/parpax_evillair_src/e8circle_blue_d
 		blendfunc add
-		rgbGen wave triangle 0.2 0.5 0 0.5
+		rgbGen wave triangle .2 .5 0 .5
 	}
 }
 
@@ -2860,7 +2860,7 @@ textures/parpax_evillair/e8spawn01b
 	{
 		map textures/parpax_evillair_src/proto_zzztblu2_d
 		rgbGen identity
-		tcMod turb 0 0.5 0 9.6
+		tcMod turb 0 .5 0 9.6
 		tcMod scale 2 2
 		tcMod scroll 9 5
 	}
@@ -2983,12 +2983,12 @@ textures/parpax_evillair/e8beam
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
-	qer_trans 0.6
+	qer_trans .6
 
 	{
 		map textures/parpax_evillair_src/e8beam_d
 		blendfunc add
-		tcMod scroll 0.3 0
+		tcMod scroll .3 0
 	}
 }
 
@@ -3000,12 +3000,12 @@ textures/parpax_evillair/e8beam_blue
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
-	qer_trans 0.6
+	qer_trans .6
 
 	{
 		map textures/parpax_evillair_src/e8beam_blue_d
 		blendfunc add
-		tcMod scroll 0.3 0
+		tcMod scroll .3 0
 	}
 }
 
@@ -3115,7 +3115,7 @@ textures/parpax_evillair/e8trimlight2_blue
 	{
 		map textures/parpax_evillair_src/e8trimlight2_blue_a
 		blendfunc add
-		tcMod scroll -0.7 0
+		tcMod scroll -.7 0
 	}
 }
 
@@ -3136,7 +3136,7 @@ textures/parpax_evillair/e8trimlight2_red
 	{
 		map textures/parpax_evillair_src/e8trimlight2_red_a
 		blendfunc add
-		tcMod scroll -0.7 0
+		tcMod scroll -.7 0
 	}
 }
 

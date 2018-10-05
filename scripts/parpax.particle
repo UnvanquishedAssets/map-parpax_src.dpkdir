@@ -9,7 +9,7 @@ parpax/sparks
 			velocityType static
 			velocityDir linear
 			velocityMagnitude 50~100
-			velocity -0.8 -0.8 -1 ~60
+			velocity -.8 -.8 -1 ~60
 
 			accelerationType static
 			accelerationDir linear
@@ -21,7 +21,7 @@ parpax/sparks
 			lifeTime 1000~2500
 			overdrawProtection
 
-			bounce 0.01~0.3
+			bounce .01~.3
 		}
 
 		count 4~4
