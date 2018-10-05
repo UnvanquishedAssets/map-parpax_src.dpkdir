@@ -68,6 +68,7 @@ layouts/*
 levelshots/*
 maps/*
 scripts/parpax_custom.shader
+scripts/parpax_space.shader
 scripts/parpax_trak4.shader
 scripts/parpax_trak5.shader
 scripts/parpax.particle
@@ -102,7 +103,7 @@ textures/parpax_ex/*
              The author also grants the following modifications:
              - You may edit any shader/material file (.shader/.mtr file) as you
                see fit.
-             - You may change the color of any "texturename.blend.png/.jpg" or
+             - You may change the color of any "texturename.blend.tga/.jpg" or
                hue to fit the style of your map.
     
     Notes  : scripts/parpax_ex.shader is a modified .mtr file.
@@ -180,7 +181,7 @@ textures/parpax_trak5/*
 
     License: MIT("X11") license
 
-    Changes: The normal maps (*_local.png) have been converted by using the
+    Changes: The normal maps (*_local.tga) have been converted by using the
              inverted alpha channel as the blue channel and removing the alpha
              channel. The imagemagick command was:
              convert <old> -channel b -fx "1.0 - u.a*1.0" -alpha off <new>
@@ -210,6 +211,22 @@ sounds/parpax/elevator.wav
 
     Source : http://www.freesound.org/samplesViewSingle.php?id=563
 
+
+env/parpax_space/*
+textures/parpax_space/*
+
+    Author : Stijn 'Ingar' Buys
+
+    License: If you redestribute this files can do so under the terms and
+             conditions of either the CREATIVE COMMONS ATTRIBUTION-SHARE ALIKE
+             3.0 LICENS or the GENERAL PUBLIC LICENSE, version 2.
+             (http://creativecommons.org/licenses/by-sa/3.0/)
+             (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+    Changes: The preview images (*_p.jpg) are low quality versions of the
+             diffuse maps.
+
+    Source : http://osirion.org/files/env-osirion-sky.zip
 
 
   +-----------+
