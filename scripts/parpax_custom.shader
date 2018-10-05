@@ -237,3 +237,47 @@ textures/parpax_custom/elebutton_s
 	}
 }
 
+textures/parpax_custom/squarelamp_blue_5k
+{
+	surfaceparm nomarks
+	q3map_surfacelight 5000
+	q3map_lightimage textures/parpax_custom/squarelamp_blue.blend.tga
+	qer_editorimage textures/parpax_custom/squarelamp_blue.tga
+
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/parpax_custom/squarelamp_blue.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/parpax_custom/squarelamp_blue.blend.tga
+		blendfunc GL_ONE GL_ONE
+	}
+}
+
+textures/parpax_custom/squarelamp_red_5k
+{
+	surfaceparm nomarks
+	q3map_surfacelight 5000
+	q3map_lightimage textures/parpax_custom/squarelamp_red.blend.tga
+	qer_editorimage textures/parpax_custom/squarelamp_red.tga
+
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/parpax_custom/squarelamp_red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/parpax_custom/squarelamp_red.blend.tga
+		blendfunc GL_ONE GL_ONE
+	}
+}
+

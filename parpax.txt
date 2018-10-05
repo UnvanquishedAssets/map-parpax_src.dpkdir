@@ -49,7 +49,8 @@ The release quality compile for Tremulous is done with the following settings:
 
     [q3map2] -meta -custinfoparms -samplesize 8 [MapFile]
     [q3map2] -vis -saveprt [MapFile]
-    [q3map2] -light -fast -shade -dirty -patchshadows -samples 3 -bouncegrid -bounce 16 -cpma [MapFile]
+    [q3map2] -light -fast -shade -dirty -patchshadows -samples 3 -samplesize 8
+             -bouncegrid -bounce 16 -cpma -scale 1.1 [MapFile]
 
 
 
@@ -69,6 +70,7 @@ you under the same license as the textures.
 -=| COPYING |=-
   +---------+
 
+layouts/*
 levelshots/*
 maps/*
 scripts/parpax_custom.shader
@@ -110,7 +112,7 @@ textures/parpax_evillair/*
              exclusively for the Tremulous project. Even though I don't know if
              this is even possible it should probably mean that the textures may
              be altered and used commercially as long as they are distributed as
-             a part of the tremulous project.
+             a part of the Tremulous project.
              (http://tremulous.net/forum/index.php?topic=12400.msg183334#msg183334)
     
     Changes: The .shader file has been merged together and modified by Viech
@@ -147,18 +149,6 @@ textures/parpax_philipk/*
     Changes: Viech converted the textures from bmp to jpg
 
     Source : http://www.philipk.net/portfolio/textures/ancient_collection.zip
-
-
-sounds/parpax/background.wav
-
-    Author : DrNI
-
-    License: Creative Commons Sampling Plus 1.0 License
-             (https://creativecommons.org/licenses/sampling+/1.0/)
-
-    Changes: The sample has been cut and slightly modified by Viech
-
-    Source : http://www.freesound.org/samplesViewSingle.php?id=34736
 
 
 sounds/parpax/beep.wav
@@ -235,6 +225,29 @@ sounds/parpax/elevator.wav
     - Some known lighting bugs (elevator) have NOT yet been fixed, these will go
       in a later release.
 
+26.11.2012 / Beta 4
+    - New areas: "O-stairs", "tank room", "hangar". They form a third connection
+      between the lower and the upper floor (thanks to Menace and `Ishq).
+    - The area "stairs entry" has been replaced with new areas ("missing tank
+      room", "windowless room").
+    - "upper sorage" now connects to the new "tank room" instead of "unnamed
+      hall". The latter has been removed.
+    - "ventilation room" now connects to the stairs (new name: "D-stairs").
+    - The elevator car and shaft have been modified. The hole in the ceiling of
+      the car has been centered and the car is now open at the back. The car
+      moves a lot faster.
+    - The girders in lower storage have been removed and the room isn't as tall
+      anymore. The door towards "lower fork" has been removed, the latter has
+      been renamed to "unnamed room" since it doesn't fork anymore.
+    - The huge shutter doors between power distributor and lower storage open
+      significantly faster.
+    - I've added an alternative layout named "aggressive" where aliens start in
+      upper storage and humans in lower storage. If it works out it might become
+      the default layout.
+    - More textures have been replaced and included in the pk3 file.
+    - Lights have been scaled up by 10%.
+    - Probably a lot of bugfixes and minor improvments that I forgot about.
+
 
 
   +---------+
@@ -245,7 +258,7 @@ The following people and projects have made this map possible. Thanks to ...
 
 - Dark Legion Development (Tremulous) and Unvanquished Developement
 - id Software for their open source releases of game engines
-- all people who worked on ioquake3 and derived engines
+- all people who worked on ioquake3 and derived engines such as XreaL
 - Supertanker for his crazy elevators on spacetracks
 - Yves 'evillair' Allaire (http://evillair.net/) for his awesome texture sets
 - Randy 'ydnar' Redding (http://shaderlab.com/) for q3map2 and his textures

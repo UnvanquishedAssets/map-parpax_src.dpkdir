@@ -80,7 +80,6 @@ textures/parpax_evillair/eq2lt_bmtl03light_nolight
 	}
 }
 
-
 textures/parpax_evillair/e8xgirder
 {
 	surfaceparm alphashadow
@@ -104,6 +103,33 @@ textures/parpax_evillair/e8xgirder
 		depthFunc equal
 	}
 }
+
+textures/parpax_evillair/e8xgirder_nonsolid
+{
+	surfaceparm alphashadow
+	surfaceparm metalsteps
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm nonsolid
+	cull disable
+	nopicmip
+	qer_editorimage textures/parpax_evillair/e8xgirder.tga
+
+	{
+		map textures/parpax_evillair/e8xgirder.tga
+		rgbGen identity
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap
+		depthFunc equal
+	}
+}
+
 
 textures/parpax_evillair/e6tdoor
 {	
