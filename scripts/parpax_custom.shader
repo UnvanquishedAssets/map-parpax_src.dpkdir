@@ -12,40 +12,6 @@ textures/parpax_custom/bulb_yellow1_10k
         }
 }
 
-textures/parpax_custom/button_vs_active_s
-{
-	qer_editorimage textures/parpax_custom/button_vs.tga
-	surfaceparm nomarks
-	
-	{
-		map textures/parpax_custom/button_vs.tga
-	}
-	{
-		map $lightmap
-		blendfunc filter
-	}
-	{
-		map textures/parpax_custom/button_vs.blend.tga
-		blendfunc add
-		rgbGen wave sin 0.7 0.4 0.5 0.46
-	}
-}
-
-
-textures/parpax_custom/button_ee_s
-{
-	qer_editorimage textures/parpax_custom/button_ee.tga
-	surfaceparm nomarks
-	
-	{
-		map textures/parpax_custom/button_ee.tga
-	}
-	{
-		map $lightmap
-		blendfunc filter
-	}
-}
-
 textures/parpax_custom/elebutton_go_s
 {
 	qer_editorimage textures/parpax_custom/elebutton_go.tga
@@ -98,25 +64,6 @@ textures/parpax_custom/elebutton_s
 	}
 }
 
-textures/parpax_custom/button_ee_active_s
-{
-	qer_editorimage textures/parpax_custom/button_ee.tga
-	surfaceparm nomarks
-	
-	{
-		map textures/parpax_custom/button_ee.tga
-	}
-	{
-		map $lightmap
-		blendfunc filter
-	}
-	{
-		map textures/parpax_custom/button_ee.blend.tga
-		blendfunc add
-		rgbGen wave sin 0.7 0.4 0.5 0.46
-	}
-}
-
 textures/parpax_custom/elebutton_up_s
 {
 	qer_editorimage textures/parpax_custom/elebutton.tga
@@ -133,20 +80,6 @@ textures/parpax_custom/elebutton_up_s
 		map textures/parpax_custom/elebutton_up.blend.tga
 		blendfunc add
 		rgbGen wave sin 0.7 0.4 0.5 0.46
-	}
-}
-
-textures/parpax_custom/button_vs_s
-{
-	qer_editorimage textures/parpax_custom/button_vs.tga
-	surfaceparm nomarks
-	
-	{
-		map textures/parpax_custom/button_vs.tga
-	}
-	{
-		map $lightmap
-		blendfunc filter
 	}
 }
 

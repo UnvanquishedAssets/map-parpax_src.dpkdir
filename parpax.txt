@@ -74,6 +74,7 @@ levelshots/*
 maps/*
 scripts/parpax_custom.shader
 scripts/parpax.particle
+sounds/parpax/crane.wav
 sounds/parpax/humming.wav
 parpax.txt
 textures/parpax_custom/*
@@ -156,6 +157,19 @@ sounds/parpax/elevator.wav
 
 16.08.2012 / Beta 1
     - First release
+
+17.08.2012 / Beta 2
+    - sounds/parpax/crane.wav has been added to COPYING section
+    - the emergency exit has been removed, the room behind the elevator shaft
+      stays and has a normal door now
+    - one of the ladders in the elevator shaft and the hole towards upper
+      storage has been removed
+    - the ventilation shafts don't reach the human base anymore
+    - spectator teleporters have been added for easier navigation
+    - the lower regions of the stairs have been made brighter
+    - a box has been moved in long hall so humans have more space to move there
+    - the cage at the highest platform of the stairs has been removed
+    - human default has a few crates at the side entrance now
 
 
 
