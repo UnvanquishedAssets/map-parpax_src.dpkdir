@@ -1,0 +1,187 @@
+  +---------+
+-=| GENERAL |=-
+  +---------+
+
+Parpax is a map for the open source games Tremulous (http://tremulous.net/) and
+Unvanquished (http://unvanquished.net/).
+
+    Author: Maximilian 'Viech' Stahlberg
+            contributors see COPYING section
+
+    Title : Parpax
+
+    Short : parpax
+
+Last update of this readme file: 16.08.2012
+
+
+
+  +------------+
+-=| VERSIONING |=-
+  +------------+
+
+a** - Alpha      : Early versions that are used for non-public testing purposes.
+                   Don't publish - required attributions might be incomplete!
+
+b** - Beta       : Public testing versions that need some further adjustments.
+
+c** - Compability: Releases that are fully compatible with Tremulous.
+
+d** - Delta      : Testing versions for the conversion to Unvanquished.
+
+r** - Release    : Final releases for Unvanquished.
+
+
+
+  +----------+
+-=| CREATION |=-
+  +----------+
+
+This map has been made with free open source software only:
+
+    Archlinux  (https://www.archlinux.org/)
+    Audacity   (http://audacity.sourceforge.net/)
+    GIMP       (http://www.gimp.org/)
+    NetRadiant (http://icculus.org/netradiant/)
+    Q3Map2     (http://shaderlab.com/q3map2/)
+    VIM        (http://www.vim.org/)
+
+The release quality compile for Tremulous is done with the following settings:
+
+    [q3map2] -meta -custinfoparms -samplesize 8 [MapFile]
+    [q3map2] -vis -saveprt [MapFile]
+    [q3map2] -light -fast -shade -dirty -patchshadows -samples 3 -bouncegrid -bounce 16 -cpma [MapFile]
+
+
+
+  +--------+
+-=| SOURCE |=-
+  +--------+
+
+The source for this map (.map file) is included and is available under a
+copyleft license (see COPYING).
+
+If you want a copy of .xcf texture resource files ask me and I'll give them to
+you under the same license as the textures.
+
+
+
+  +---------+
+-=| COPYING |=-
+  +---------+
+
+levelshots/*
+maps/*
+scripts/parpax_custom.shader
+scripts/parpax.particle
+sounds/parpax/humming.wav
+parpax.txt
+textures/parpax_custom/*
+
+    Author : Maximilian 'Viech' Stahlberg
+    
+    License: Attribution-NonCommercial-ShareAlike 3.0 Unported License
+             (https://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+             You may apply (at your opinion) the terms of any later version of
+             this license.
+
+
+scripts/parpax_evillair.shader
+textures/parpax_evillair/*
+
+    Author : Yves 'evillair' Allaire (http://evillair.net/)
+    
+    License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+             (https://creativecommons.org/licenses/by-nc-nd/3.0/)
+             
+             The author also grants the following modifications:
+             - You may edit any shaders (.shader file) as you see fit.
+             - You may change the color of any "texturename.blend.tga/.jpg" or
+               hue to fit the style of your map.
+
+             In an email from evillair to Tremulous developer Timbo he said that
+             he would release his texture sets under the CC-BY-SA-2.5 license
+             exclusively for the Tremulous project. Even though I don't know if
+             this is even possible it should probably mean that the textures may
+             be altered and used commercially as long as they are distributed as
+             a part of the tremulous project. I didn't edit any of his textures
+             though.
+             (http://tremulous.net/forum/index.php?topic=12400.msg183334#msg183334)
+    
+    Changes: The .shader file has been merged together and modified by Viech
+    
+    Source : http://www.evillair.net/v2/index.php?option=com_content&task=view&id=28&Itemid=43
+
+
+sounds/parpax/background.wav
+
+    Author : DrNI
+
+    License: Creative Commons Sampling Plus 1.0 License
+             (https://creativecommons.org/licenses/sampling+/1.0/)
+
+    Changes: The sample has been cut and slightly modified by Viech
+
+    Source : http://www.freesound.org/samplesViewSingle.php?id=34736
+
+
+sounds/parpax/beep.wav
+
+    Author : JustinBW (http://www.justinwasack.com)
+ 
+    License: Creative Commons Attribution 3.0 Unported License
+             (https://creativecommons.org/licenses/by/3.0/)
+ 
+    Source : http://www.freesound.org/people/JustinBW/sounds/70106/
+
+
+sounds/parpax/elevator_stop.wav
+sounds/parpax/elevator.wav
+
+    Author : TwistedLemon (www.twistedlemon.nl)
+ 
+    License: Creative Commons Sampling Plus 1.0 License
+             (https://creativecommons.org/licenses/sampling+/1.0/)
+
+    Changes: The sample has been cut and slightly modified by Viech
+
+    Source : http://www.freesound.org/samplesViewSingle.php?id=563
+
+
+
+  +-----------+
+-=| CHANGELOG |=-
+  +-----------+
+
+16.08.2012 / Beta 1
+    - First release
+
+
+
+  +---------+
+-=| CREDITS |=-
+  +---------+
+
+The following people and projects have made this map possible. Thanks to ...
+
+- Dark Legion Development for Tremulous
+- the Unvanquished Developement Team
+- id Software for their open source releases of game engines
+- all people who worked on improvmenets of the Quake 3 engine
+- Supertanker for his crazy elevator on spacetracks
+- Yves 'evillair' Allaire (http://evillair.net/) for his awesome texture sets
+- Randy 'ydnar' Redding (http://shaderlab.com/) for q3map2
+- the people at http://www.alientrap.org for NetRadiant
+- the people behind http://www.freesound.org for their free sound library
+- the alpha testing crew:
+    - My girlfriend, known as 'Viech's Girlfriend'
+    - My flatmates 'mx' and 'mrQuGel'
+- everyone hwo participated in beta testing by voting my map or reporting bugs,
+  critics or improvement ideas
+- everyone hwo works on free open source software or creates free media. You
+  make the world a better place!
+
+
+
+# vim:set ts=4 sw=4 et:
