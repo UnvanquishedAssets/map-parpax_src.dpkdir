@@ -67,7 +67,6 @@ about/*
 gfx/*
 levelshots/*
 maps/*
-minimaps/*
 scripts/parpax.particle
 scripts/parpax_custom.shader
 scripts/parpax_ex.shader
@@ -90,17 +89,9 @@ scripts/parpax_evillair.shader
 textures/parpax_evillair/*
 
     Author : Yves 'evillair' Allaire (http://evillair.net/)
-    
-    License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
-             (https://creativecommons.org/licenses/by-nc-nd/3.0/)
-             
-             The author also grants the following modifications:
-             - You may edit any shader/material file (.shader/.mtr file) as you
-               see fit.
-             - You may change the color of any "texturename.blend.tga/.jpg" or
-               hue to fit the style of your map.
-    
-    Notes  : scripts/parpax_ex.shader is a modified .mtr file.
+
+    License: Creative Commons Attribution-ShareAlike 4.0 International License
+             (https://creativecommons.org/licenses/by-sa/4.0/)
 
     Changes: The .shader files have been merged together and modified by Viech
              eq2_baselt03_blue.* is a copy of eq2_baselt03.* with modified hue
@@ -239,6 +230,11 @@ sounds/parpax/elevator.wav
 01.05.2014 / Delta 3
     - ?
 
+? / Delta 4
+    - ?
+
+? / Delta 5
+    - ?
 
 
   +---------+
