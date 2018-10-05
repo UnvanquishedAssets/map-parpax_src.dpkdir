@@ -1,17 +1,3 @@
-textures/parpax_custom/bulb_yellow1_10k
-{
-        q3map_surfacelight 10000
-        q3map_lightimage textures/parpax_custom/bulb_yellow1.tga
-        qer_editorimage textures/parpax_custom/bulb_yellow1.tga
-        surfaceparm nomarks
-        surfaceparm nolightmap
-
-        {
-                map textures/parpax_custom/bulb_yellow1.tga
-                rgbGen identity
-        }
-}
-
 textures/parpax_custom/elebutton_go_s
 {
 	qer_editorimage textures/parpax_custom/elebutton_go.tga
@@ -62,6 +48,20 @@ textures/parpax_custom/elebutton_s
 		map $lightmap
 		blendfunc filter
 	}
+}
+
+textures/parpax_custom/bulb_yellow1_10k
+{
+        q3map_surfacelight 10000
+        q3map_lightimage textures/parpax_custom/bulb_yellow1.tga
+        qer_editorimage textures/parpax_custom/bulb_yellow1.tga
+        surfaceparm nomarks
+        surfaceparm nolightmap
+
+        {
+                map textures/parpax_custom/bulb_yellow1.tga
+                rgbGen identity
+        }
 }
 
 textures/parpax_custom/elebutton_up_s

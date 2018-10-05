@@ -12,24 +12,22 @@ Unvanquished (http://unvanquished.net/).
 
     Short : parpax
 
-Last update of this readme file: 16.08.2012
-
 
 
   +------------+
 -=| VERSIONING |=-
   +------------+
 
-a** - Alpha      : Early versions that are used for non-public testing purposes.
-                   Don't publish - required attributions might be incomplete!
+a** - Alpha  : Early versions that are used for non-public testing purposes.
+               Don't publish - required attributions might be incomplete!
 
-b** - Beta       : Public testing versions that need some further adjustments.
+b** - Beta   : Public testing versions that need some further adjustments.
 
-c** - Compability: Releases that are fully compatible with Tremulous.
+c** - Compat : Releases that are fully compatible with Tremulous.
 
-d** - Delta      : Testing versions for the conversion to Unvanquished.
+d** - Delta  : Testing versions for the conversion to Unvanquished.
 
-r** - Release    : Final releases for Unvanquished.
+r** - Release: Final releases for Unvanquished.
 
 
 
@@ -39,12 +37,13 @@ r** - Release    : Final releases for Unvanquished.
 
 This map has been made with free open source software only:
 
-    Archlinux  (https://www.archlinux.org/)
-    Audacity   (http://audacity.sourceforge.net/)
-    GIMP       (http://www.gimp.org/)
-    NetRadiant (http://icculus.org/netradiant/)
-    Q3Map2     (http://shaderlab.com/q3map2/)
-    VIM        (http://www.vim.org/)
+    Archlinux   (https://www.archlinux.org/)
+    Audacity    (http://audacity.sourceforge.net/)
+    GIMP        (http://www.gimp.org/)
+    ImageMagick (http://www.imagemagick.org/)
+    NetRadiant  (http://icculus.org/netradiant/)
+    Q3Map2      (http://shaderlab.com/q3map2/)
+    VIM         (http://www.vim.org/)
 
 The release quality compile for Tremulous is done with the following settings:
 
@@ -81,11 +80,16 @@ textures/parpax_custom/*
 
     Author : Maximilian 'Viech' Stahlberg
     
-    License: Attribution-NonCommercial-ShareAlike 3.0 Unported License
+    License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
              (https://creativecommons.org/licenses/by-nc-sa/3.0/)
 
              You may apply (at your opinion) the terms of any later version of
              this license.
+
+    Notes  : The turret model which is baked in maps/parpax.bsp is made by Dark
+             Legion Development and was licensed under the
+             Creative Commons Attribution-ShareAlike 2.5 Unported License
+             (https://creativecommons.org/licenses/by-nc-sa/2.5/)
 
 
 scripts/parpax_evillair.shader
@@ -106,13 +110,43 @@ textures/parpax_evillair/*
              exclusively for the Tremulous project. Even though I don't know if
              this is even possible it should probably mean that the textures may
              be altered and used commercially as long as they are distributed as
-             a part of the tremulous project. I didn't edit any of his textures
-             though.
+             a part of the tremulous project.
              (http://tremulous.net/forum/index.php?topic=12400.msg183334#msg183334)
     
     Changes: The .shader file has been merged together and modified by Viech
+             eq2_baselt03_blue.jpg is a copy of eq2_baselt03.jpg with modified hue
+             eq2_baselt03_blue.blend.jpg is a copy of eq2_baselt03.blend.jpg with modified hue
+             eq2_baselt03b_blue.jpg is a copy of eq2_baselt03b.jpg with modified hue
+             eq2_baselt03b_blue.blend.jpg is a copy of eq2_baselt03b.blend.jpg with modified hue
     
     Source : http://www.evillair.net/v2/index.php?option=com_content&task=view&id=28&Itemid=43
+
+
+textures/parpax_ydnar/*
+
+    Author : Randy 'ydnar' Reddig (http://shaderlab.com/)
+
+    License: Usage and redistribution policy: Textures may be freely downloaded,
+             modified, and used in free maps, mods or total conversions provided
+             this copyright notice is left intact and a link to Shaderlab is
+             provided in the credits or read-me file. Other non-commercial
+             applications are considered on a case-by-case basis via e-mail. All
+             other usage requires written permission. Bulk redistribution or
+             archival of the textures in any medium, digital or otherwise
+             (except mapping packages for mods) is prohibited.
+
+    Source : http://shaderlab.com/slrl/textures/
+
+
+textures/parpax_philipk/*
+
+    Author : Philip 'Blazeeer' Klevestav (http://www.philipk.net/)
+
+    License: Do what the hell you want with em :)
+
+    Changes: Viech converted the textures from bmp to jpg
+
+    Source : http://www.philipk.net/portfolio/textures/ancient_collection.zip
 
 
 sounds/parpax/background.wav
@@ -159,17 +193,47 @@ sounds/parpax/elevator.wav
     - First release
 
 17.08.2012 / Beta 2
-    - sounds/parpax/crane.wav has been added to COPYING section
-    - the emergency exit has been removed, the room behind the elevator shaft
-      stays and has a normal door now
-    - one of the ladders in the elevator shaft and the hole towards upper
-      storage has been removed
-    - the ventilation shafts don't reach the human base anymore
-    - spectator teleporters have been added for easier navigation
-    - the lower regions of the stairs have been made brighter
-    - a box has been moved in long hall so humans have more space to move there
-    - the cage at the highest platform of the stairs has been removed
-    - human default has a few crates at the side entrance now
+    - sounds/parpax/crane.wav has been added to COPYING section.
+    - The emergency exit has been removed, the room behind the elevator shaft
+      stays and has a normal door now.
+    - One of the ladders in the elevator shaft and the hole towards upper
+      storage has been removed.
+    - The ventilation shafts don't reach the human base anymore.
+    - Spectator teleporters have been added for easier navigation (thanks to
+      Odal).
+    - The lower regions of the stairs have been made brighter (thanks to Xedoh).
+    - A box has been moved in long hall so humans have more space to move there.
+    - The cage at the highest platform of the stairs has been removed.
+    - Human default has a few crates at the side entrance now (last three:
+      thanks to Nightmare).
+
+31.08.2012 / Beta 3
+    - The human default base has been replaced with a completely new room.
+    - Advanced marauders (and crouching humans) are now able to enter long hall
+      via pipe shaft in order to defeat campy human bases there (thanks to
+      Ingar).
+    - Added "steps" in elevator shaft so goons can exit it (forgot hwo proposed
+      this, sorry!).
+    - Some textures have been replaced with the goal to have an independent .pk3
+      file eventually.
+    - A bug has been fixed which denied building in some regions in elevator
+      room.
+    - A bug has been fixed that lead to humans surfing at the top of the
+      elevator car (thanks to /dev/humancontroller).
+    - A region where the void was visible was fixed (/dev/humancontroller).
+    - Leftover map regions (from Beta 1) have been removed.
+    - Lighting in short hall and long hall has been changed from entity based to
+      shader based, lower storage (former name: front storage) will follow.
+    - Lighting at the bottom of the elevator car has been improved
+      (/dev/humancontroller).
+    - The directory containing sounds is now named "sound" instead of "sounds"
+      to comply with the standard layout (/dev/humancontroller).
+    - The baked in turret model has been added to COPYING section.
+    - Removed the background sound as it was registered as the level's music
+      which lead to annoying noises for some players. Background sounds might
+      come back later on a per-room basis.
+    - Some known lighting bugs (elevator) have NOT yet been fixed, these will go
+      in a later release.
 
 
 
@@ -179,17 +243,17 @@ sounds/parpax/elevator.wav
 
 The following people and projects have made this map possible. Thanks to ...
 
-- Dark Legion Development for Tremulous
-- the Unvanquished Developement Team
+- Dark Legion Development (Tremulous) and Unvanquished Developement
 - id Software for their open source releases of game engines
-- all people who worked on improvmenets of the Quake 3 engine
-- Supertanker for his crazy elevator on spacetracks
+- all people who worked on ioquake3 and the daemon engine
+- Supertanker for his crazy elevators on spacetracks
 - Yves 'evillair' Allaire (http://evillair.net/) for his awesome texture sets
-- Randy 'ydnar' Redding (http://shaderlab.com/) for q3map2
+- Randy 'ydnar' Redding (http://shaderlab.com/) for q3map2 and his textures
+- Philip 'Blazeeer' Klevestav for his textures
 - the people at http://www.alientrap.org for NetRadiant
 - the people behind http://www.freesound.org for their free sound library
 - the alpha testing crew:
-    - My girlfriend, known as 'Viech's Girlfriend'
+    - My girlfriend, known as 'Biest'
     - My flatmates 'mx' and 'mrQuGel'
 - everyone hwo participated in beta testing by voting my map or reporting bugs,
   critics or improvement ideas
