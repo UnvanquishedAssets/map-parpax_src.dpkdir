@@ -379,6 +379,7 @@ textures/parpax_evillair/e8xgirder_nonsolid
 	cull disable
 	nopicmip
 	qer_editorImage textures/parpax_evillair_src/e8xgirder_d
+	qer_alphaFunc gequal .5
 
 	{
 		map textures/parpax_evillair_src/e8xgirder_d
@@ -2353,6 +2354,8 @@ textures/parpax_evillair/e8tmtllight2b
 textures/parpax_evillair/e8xgirder_small2
 {
 	cull disable
+	qer_editorImage textures/parpax_evillair_src/e8xgirder_d
+	qer_alphaFunc gequal .5
 
 	{
 		map textures/parpax_evillair_src/e8xgirder_small2_d
@@ -2612,6 +2615,8 @@ textures/parpax_evillair/e8xgirder
 	surfaceparm trans
 	cull disable
 	nopicmip
+	qer_editorImage textures/parpax_evillair_src/e8xgirder_d
+	qer_alphaFunc gequal .5
 
 	{
 		map textures/parpax_evillair_src/e8xgirder_d
@@ -2631,6 +2636,8 @@ textures/parpax_evillair/e8xgirder
 textures/parpax_evillair/e8xgirder_small
 {
 	cull disable
+	qer_editorImage textures/parpax_evillair_src/e8xgirder_d
+	qer_alphaFunc gequal .5
 
 	{
 		map textures/parpax_evillair_src/e8xgirder_small_d
