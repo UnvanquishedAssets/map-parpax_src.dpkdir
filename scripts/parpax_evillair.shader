@@ -158,6 +158,7 @@ textures/parpax_evillair/e8_base1c_nonsolid
 textures/parpax_evillair/e6metalfan_blade
 {
 	qer_editorImage textures/parpax_evillair_src/e6metalfan_blade_d
+	qer_alphaFunc gequal .5
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
@@ -1532,6 +1533,7 @@ textures/parpax_evillair/e6tekmtlrflr_h_small_noisy_fast
 textures/parpax_evillair/e6xgratebasic_b
 {
 	qer_editorImage textures/parpax_evillair_src/e6xgratebasic_b_d
+	qer_alphaFunc gequal .5
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
@@ -1552,6 +1554,7 @@ textures/parpax_evillair/e6xgratebasic_b
 textures/parpax_evillair/e6xgratebasic
 {
 	qer_editorImage textures/parpax_evillair_src/e6xgratebasic_d
+	qer_alphaFunc gequal .5
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
@@ -1820,6 +1823,7 @@ textures/parpax_evillair/e6h_support
 textures/parpax_evillair/e6holestrip
 {
 	qer_editorImage textures/parpax_evillair_src/e6holestrip_d
+	qer_alphaFunc gequal .5
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm metalsteps
@@ -1940,6 +1944,7 @@ textures/parpax_evillair/e6btrim_light_nolight
 textures/parpax_evillair/e6metalfan
 {
 	qer_editorImage textures/parpax_evillair_src/e6metalfan_d
+	qer_alphaFunc gequal .5
 
 	{
 		map textures/parpax_evillair_src/e6metalfan_blade_d
