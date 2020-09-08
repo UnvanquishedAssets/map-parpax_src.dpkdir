@@ -78,8 +78,8 @@ textures/parpax_custom_src/*
 
     Author : Maximilian 'Viech' Stahlberg
     
-    License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
-             (https://creativecommons.org/licenses/by-nc-sa/3.0/)
+    License: Creative Commons Attribution-ShareAlike 4.0 International License
+             (https://creativecommons.org/licenses/by-sa/4.0/)
 
              You may apply (at your opinion) the terms of any later version of
              this license.
@@ -241,6 +241,10 @@ sounds/parpax/elevator.flac
 
 ? / Delta 5
     - ?
+
+09.07.2020 / 2.6.0 (Delta 6)
+    - Relicensed the map and custom assets from CC-BY-SA-NC 3.0 to
+      CC-BY-SA 4.0.
 
 
   +---------+
