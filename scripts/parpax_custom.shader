@@ -298,8 +298,6 @@ textures/parpax_custom/squarelamp_blue_40k
 
 	{
 		diffuseMap  textures/parpax_custom_src/squarelamp_blue_d
-	}
-	{
 		glowMap     textures/parpax_custom_src/squarelamp_blue_a
 	}
 }
