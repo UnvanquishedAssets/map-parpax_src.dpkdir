@@ -77,7 +77,7 @@ sounds/parpax/humming.flac
 textures/parpax_custom_src/*
 
     Author : Maximilian 'Viech' Stahlberg
-    
+
     License: Creative Commons Attribution-ShareAlike 4.0 International License
              (https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -99,7 +99,7 @@ textures/parpax_evillair_src/*
              eq2_baselt03b_blue.* is a copy of eq2_baselt03b.* with modified hue
              eq2_baselt03b_blue.blend.* is a copy of eq2_baselt03b.blend.* with modified hue
              The texture format has been converted
-    
+
     Source : http://www.evillair.net/v2/index.php?option=com_content&task=view&id=28&Itemid=43
 
 
@@ -124,10 +124,10 @@ textures/parpax_pkw_src/*
 sounds/parpax/beep.flac
 
     Author : JustinBW (http://www.justinwasack.com)
- 
+
     License: Creative Commons Attribution 3.0 Unported License
              (https://creativecommons.org/licenses/by/3.0/)
- 
+
     Source : http://www.freesound.org/people/JustinBW/sounds/70106/
 
 
@@ -135,9 +135,9 @@ sounds/parpax/elevator_stop.flac
 sounds/parpax/elevator.flac
 
     Author : TwistedLemon (www.twistedlemon.nl)
- 
-    License: Creative Commons Sampling Plus 1.0 License
-             (https://creativecommons.org/licenses/sampling+/1.0/)
+
+    License: Creative Commons Attribution 3.0 Unported License
+             (https://creativecommons.org/licenses/by/3.0/)
 
     Changes: The sample has been cut and slightly modified by Viech
 
