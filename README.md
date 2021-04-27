@@ -7,6 +7,8 @@ Parpax game level for Unvanquished
 About
 -----
 
+_Parpax_ is a game level featuring an abandoned storage complex with no actual entry or exit points for storage.
+
 This map is a work in progress by Maximilian “Viech” Stahlberg for the [Unvanquished](https://unvanquished.net) game project.
 
 This map is meant to be edited with a level editor like [NetRadiant](https://netradiant.gitlab.io/).
