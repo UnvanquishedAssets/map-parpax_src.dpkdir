@@ -7,7 +7,3 @@
 /maps/*.lin
 /maps/*.prt
 /maps/*.srf
-
-# Viech's workflow
-/build.sh
-/old
