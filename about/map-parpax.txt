@@ -131,8 +131,10 @@ sounds/parpax/beep.flac
     Source : http://www.freesound.org/people/JustinBW/sounds/70106/
 
 
-sounds/parpax/elevator_stop.flac
 sounds/parpax/elevator.flac
+sounds/parpax/elevator_start.flac
+sounds/parpax/elevator_loop.flac
+sounds/parpax/elevator_stop.flac
 
     Author : TwistedLemon (www.twistedlemon.nl)
 
