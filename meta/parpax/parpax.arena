@@ -1,5 +1,6 @@
 {
-map "parpax"
-longname "Parpax"
-type "tremulous"
+	map "parpax"
+	longname "Parpax"
+	author "Viech"
+	type "tremulous"
 }
