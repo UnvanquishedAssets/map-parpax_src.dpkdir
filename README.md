@@ -1,7 +1,7 @@
 Parpax game level for Unvanquished
 ==================================
 
-![Parpax levelshot](meta/parpax/parpax.jpg)
+![Parpax levelshot](meta/parpax/parpax.webp)
 
 
 About
