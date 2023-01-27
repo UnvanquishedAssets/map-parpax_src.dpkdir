@@ -3,7 +3,7 @@ textures/parpax_custom/skill
 	qer_editorImage textures/parpax_custom_src/skill_d
 
 	{
-		diffuseMap  textures/parpax_custom_src/skill_d
+		diffuseMap textures/parpax_custom_src/skill_d
 	}
 }
 
@@ -14,7 +14,7 @@ textures/parpax_custom/button_ee
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/button_ee_d
+		diffuseMap textures/parpax_custom_src/button_ee_d
 	}
 }
 
@@ -25,7 +25,7 @@ textures/parpax_custom/button_vs
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/button_vs_d
+		diffuseMap textures/parpax_custom_src/button_vs_d
 	}
 }
 
@@ -36,10 +36,10 @@ textures/parpax_custom/button_ee_active
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/button_ee_d
+		diffuseMap textures/parpax_custom_src/button_ee_d
 	}
 	{
-		map         textures/parpax_custom_src/button_ee_a
+		map textures/parpax_custom_src/button_ee_a
 		blendfunc add
 		rgbGen wave sin .7 .4 .5 .46
 	}
@@ -52,10 +52,10 @@ textures/parpax_custom/button_vs_active
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/button_vs_d
+		diffuseMap textures/parpax_custom_src/button_vs_d
 	}
 	{
-		map         textures/parpax_custom_src/button_vs_a
+		map textures/parpax_custom_src/button_vs_a
 		blendfunc add
 		rgbGen wave sin .7 .4 .5 .46
 	}
@@ -68,7 +68,7 @@ textures/parpax_custom/elebutton
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/elebutton_d
+		diffuseMap textures/parpax_custom_src/elebutton_d
 	}
 }
 
@@ -79,10 +79,10 @@ textures/parpax_custom/elebutton_up
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/elebutton_d
+		diffuseMap textures/parpax_custom_src/elebutton_d
 	}
 	{
-		map         textures/parpax_custom_src/elebutton_up_a
+		map textures/parpax_custom_src/elebutton_up_a
 		blendfunc add
 		rgbGen wave sin .7 .4 .5 .46
 	}
@@ -95,10 +95,10 @@ textures/parpax_custom/elebutton_down
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/elebutton_d
+		diffuseMap textures/parpax_custom_src/elebutton_d
 	}
 	{
-		map         textures/parpax_custom_src/elebutton_down_a
+		map textures/parpax_custom_src/elebutton_down_a
 		blendfunc add
 		rgbGen wave sin .7 .4 .5 .46
 	}
@@ -111,10 +111,10 @@ textures/parpax_custom/elebutton_go
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/elebutton_go_d
+		diffuseMap textures/parpax_custom_src/elebutton_go_d
 	}
 	{
-		map         textures/parpax_custom_src/elebutton_go_a
+		map textures/parpax_custom_src/elebutton_go_a
 		blendfunc add
 		rgbGen wave sin .7 .4 .5 .46
 	}
@@ -194,8 +194,8 @@ textures/parpax_custom/squarelamp_red_5k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_red_d
-		glowMap     textures/parpax_custom_src/squarelamp_red_a
+		diffuseMap textures/parpax_custom_src/squarelamp_red_d
+		glowMap textures/parpax_custom_src/squarelamp_red_a
 	}
 }
 
@@ -207,8 +207,8 @@ textures/parpax_custom/squarelamp_red_10k
 	qer_editorImage textures/parpax_custom_src/squarelamp_red_d
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_red_d
-		glowMap     textures/parpax_custom_src/squarelamp_red_a
+		diffuseMap textures/parpax_custom_src/squarelamp_red_d
+		glowMap textures/parpax_custom_src/squarelamp_red_a
 	}
 }
 
@@ -222,8 +222,8 @@ textures/parpax_custom/squarelamp_red_20k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_red_d
-		glowMap     textures/parpax_custom_src/squarelamp_red_a
+		diffuseMap textures/parpax_custom_src/squarelamp_red_d
+		glowMap textures/parpax_custom_src/squarelamp_red_a
 	}
 }
 
@@ -237,8 +237,8 @@ textures/parpax_custom/squarelamp_red_40k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_red_d
-		glowMap     textures/parpax_custom_src/squarelamp_red_a
+		diffuseMap textures/parpax_custom_src/squarelamp_red_d
+		glowMap textures/parpax_custom_src/squarelamp_red_a
 	}
 }
 
@@ -252,8 +252,8 @@ textures/parpax_custom/squarelamp_blue_5k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_blue_d
-		glowMap     textures/parpax_custom_src/squarelamp_blue_a
+		diffuseMap textures/parpax_custom_src/squarelamp_blue_d
+		glowMap textures/parpax_custom_src/squarelamp_blue_a
 	}
 }
 
@@ -267,8 +267,8 @@ textures/parpax_custom/squarelamp_blue_10k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_blue_d
-		glowMap     textures/parpax_custom_src/squarelamp_blue_a
+		diffuseMap textures/parpax_custom_src/squarelamp_blue_d
+		glowMap textures/parpax_custom_src/squarelamp_blue_a
 	}
 }
 
@@ -282,8 +282,8 @@ textures/parpax_custom/squarelamp_blue_20k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_blue_d
-		glowMap     textures/parpax_custom_src/squarelamp_blue_a
+		diffuseMap textures/parpax_custom_src/squarelamp_blue_d
+		glowMap textures/parpax_custom_src/squarelamp_blue_a
 	}
 }
 
@@ -297,8 +297,8 @@ textures/parpax_custom/squarelamp_blue_40k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_blue_d
-		glowMap     textures/parpax_custom_src/squarelamp_blue_a
+		diffuseMap textures/parpax_custom_src/squarelamp_blue_d
+		glowMap textures/parpax_custom_src/squarelamp_blue_a
 	}
 }
 
@@ -312,8 +312,8 @@ textures/parpax_custom/squarelamp_white_5k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_white_d
-		glowMap     textures/parpax_custom_src/squarelamp_white_a
+		diffuseMap textures/parpax_custom_src/squarelamp_white_d
+		glowMap textures/parpax_custom_src/squarelamp_white_a
 	}
 }
 
@@ -327,8 +327,8 @@ textures/parpax_custom/squarelamp_white_10k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_white_d
-		glowMap     textures/parpax_custom_src/squarelamp_white_a
+		diffuseMap textures/parpax_custom_src/squarelamp_white_d
+		glowMap textures/parpax_custom_src/squarelamp_white_a
 	}
 }
 
@@ -342,8 +342,8 @@ textures/parpax_custom/squarelamp_white_20k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_white_d
-		glowMap     textures/parpax_custom_src/squarelamp_white_a
+		diffuseMap textures/parpax_custom_src/squarelamp_white_d
+		glowMap textures/parpax_custom_src/squarelamp_white_a
 	}
 }
 
@@ -357,8 +357,8 @@ textures/parpax_custom/squarelamp_white_40k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_white_d
-		glowMap     textures/parpax_custom_src/squarelamp_white_a
+		diffuseMap textures/parpax_custom_src/squarelamp_white_d
+		glowMap textures/parpax_custom_src/squarelamp_white_a
 	}
 }
 
@@ -372,8 +372,8 @@ textures/parpax_custom/squarelamp_orange_5k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_orange_d
-		glowMap     textures/parpax_custom_src/squarelamp_orange_a
+		diffuseMap textures/parpax_custom_src/squarelamp_orange_d
+		glowMap textures/parpax_custom_src/squarelamp_orange_a
 	}
 }
 
@@ -387,8 +387,8 @@ textures/parpax_custom/squarelamp_orange_10k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_orange_d
-		glowMap     textures/parpax_custom_src/squarelamp_orange_a
+		diffuseMap textures/parpax_custom_src/squarelamp_orange_d
+		glowMap textures/parpax_custom_src/squarelamp_orange_a
 	}
 }
 
@@ -402,8 +402,8 @@ textures/parpax_custom/squarelamp_orange_20k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_orange_d
-		glowMap     textures/parpax_custom_src/squarelamp_orange_a
+		diffuseMap textures/parpax_custom_src/squarelamp_orange_d
+		glowMap textures/parpax_custom_src/squarelamp_orange_a
 	}
 }
 
@@ -417,8 +417,8 @@ textures/parpax_custom/squarelamp_orange_40k
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/parpax_custom_src/squarelamp_orange_d
-		glowMap     textures/parpax_custom_src/squarelamp_orange_a
+		diffuseMap textures/parpax_custom_src/squarelamp_orange_d
+		glowMap textures/parpax_custom_src/squarelamp_orange_a
 	}
 }
 
@@ -436,9 +436,9 @@ textures/parpax_custom/flare_white
 	{
 		map textures/parpax_custom_src/flare_d
 		blend add
-		red   .8
+		red .8
 		green .9
-		blue  1
+		blue 1
 	}
 }
 
@@ -456,9 +456,9 @@ textures/parpax_custom/flare_orange
 	{
 		map textures/parpax_custom_src/flare_d
 		blend add
-		red   1
+		red 1
 		green .73
-		blue  .38
+		blue .38
 	}
 }
 
@@ -476,8 +476,8 @@ textures/parpax_custom/flare_blue
 	{
 		map textures/parpax_custom_src/flare_d
 		blend add
-		red   .38
+		red .38
 		green .65
-		blue  1
+		blue 1
 	}
 }

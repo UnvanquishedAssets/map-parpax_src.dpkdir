@@ -1612,12 +1612,12 @@ textures/parpax_evillair/e6horzovallight_nolight
 
 textures/parpax_evillair/e6horzovallight_nolight
 {
-qer_editorImage textures/parpax_evillair_src/e6horzovallight_a
-surfaceparm nomarks
+	qer_editorImage textures/parpax_evillair_src/e6horzovallight_a
+	surfaceparm nomarks
 
-{
-map textures/parpax_evillair_src/e6mtltpnl_light_fx_d
-tcmod scroll .2 1
+	{
+		map textures/parpax_evillair_src/e6mtltpnl_light_fx_d
+		tcmod scroll .2 1
 	}
 	{
 		map textures/parpax_evillair_src/e6horzovallight_a

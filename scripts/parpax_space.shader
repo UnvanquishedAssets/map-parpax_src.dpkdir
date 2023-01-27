@@ -14,4 +14,3 @@ textures/parpax_space/sky20_bright
 
 	skyparms env/shared_space_src/sky20 - -
 }
-
