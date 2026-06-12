@@ -89464,13 +89464,13 @@ parpax_evillair/e6xgratebasic
 {
 "classname" "target_location"
 "origin" "352.000000 -2912.000000 160.000000"
-"message" "ventilation room"
+"message" "Ventilation room"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1024.000000 -3152.000000 896.000000"
-"message" "platform"
+"message" "Platform"
 "count" "1"
 }
 {
@@ -91243,37 +91243,37 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "352.000000 -1376.000000 160.000000"
-"message" "ventilation"
+"message" "Ventilation"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "992.000000 -1376.000000 224.000000"
-"message" "short hall"
+"message" "Short hall"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "928.000000 -448.000000 224.000000"
-"message" "power distributor"
+"message" "Power distributor"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1608.000000 -2016.000000 384.000000"
-"message" "pipe shaft"
+"message" "Pipe shaft"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "672.000000 -2240.000000 624.000000"
-"message" "lower storage"
+"message" "Lower storage"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "2368.000000 -2240.000000 896.000000"
-"message" "strange machine"
+"message" "Strange machine"
 "count" "1"
 }
 {
@@ -91498,19 +91498,19 @@ shared_ex/base1b
 {
 "classname" "target_location"
 "origin" "1312.000000 -2240.000000 192.000000"
-"message" "lower storage"
+"message" "Lower storage"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1808.000000 -1760.000000 224.000000"
-"message" "long hall"
+"message" "Long hall"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1808.000000 -1280.000000 224.000000"
-"message" "long hall"
+"message" "Long hall"
 "count" "4"
 }
 {
@@ -92031,19 +92031,19 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "2272.000000 -2240.000000 168.000000"
-"message" "side storage"
+"message" "Side storage"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "384.000000 -3584.000000 320.000000"
-"message" "stairs"
+"message" "Stairs"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "384.000000 -3584.000000 624.000000"
-"message" "stairs"
+"message" "Stairs"
 "count" "3"
 }
 {
@@ -97462,67 +97462,67 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "448.000000 -3584.000000 1232.000000"
-"message" "dome"
+"message" "Dome"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "448.000000 -2880.000000 896.000000"
-"message" "fork"
+"message" "Fork"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "448.000000 -2240.000000 896.000000"
-"message" "ventilation hall"
+"message" "Ventilation hall"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "352.000000 -2272.000000 160.000000"
-"message" "ventilation"
+"message" "Ventilation"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1984.000000 -2240.000000 896.000000"
-"message" "strange machine"
+"message" "Strange machine"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "1632.000000 -2240.000000 896.000000"
-"message" "octagon hall"
+"message" "Octagon hall"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "1024.000000 -2560.000000 896.000000"
-"message" "upper storage"
+"message" "Upper storage"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "1152.000000 -2240.000000 896.000000"
-"message" "upper storage"
+"message" "Upper storage"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "1088.000000 -1856.000000 896.000000"
-"message" "upper storage"
+"message" "Upper storage"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "448.000000 -2560.000000 896.000000"
-"message" "ventilation hall"
+"message" "Ventilation hall"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "736.000000 -3104.000000 896.000000"
-"message" "platform"
+"message" "Platform"
 "count" "1"
 }
 {
@@ -99209,37 +99209,37 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "448.000000 -3072.000000 896.000000"
-"message" "fork"
+"message" "Fork"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "992.000000 -2560.000000 192.000000"
-"message" "lower storage"
+"message" "Lower storage"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1536.000000 -512.000000 224.000000"
-"message" "power distributor"
+"message" "Power distributor"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1568.000000 -896.000000 384.000000"
-"message" "power distributor"
+"message" "Power distributor"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "992.000000 -1920.000000 192.000000"
-"message" "lower storage"
+"message" "Lower storage"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "672.000000 -2240.000000 192.000000"
-"message" "lower storage"
+"message" "Lower storage"
 "count" "4"
 }
 {
@@ -99376,7 +99376,7 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "992.000000 -896.000000 224.000000"
-"message" "power distributor"
+"message" "Power distributor"
 "count" "4"
 }
 {
@@ -101173,13 +101173,13 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "1568.000000 -1248.000000 384.000000"
-"message" "pipe shaft"
+"message" "Pipe shaft"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1608.000000 -1632.000000 384.000000"
-"message" "pipe shaft"
+"message" "Pipe shaft"
 "count" "4"
 }
 {
@@ -101404,7 +101404,7 @@ parpax_exm/base1_nonsolid
 {
 "classname" "target_location"
 "origin" "1808.000000 -512.000000 224.000000"
-"message" "long hall"
+"message" "Long hall"
 "count" "4"
 }
 {
@@ -107411,31 +107411,31 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "576.000000 -1248.000000 896.000000"
-"message" "ventilation hall"
+"message" "Ventilation hall"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "1248.000000 -960.000000 896.000000"
-"message" "tank room"
+"message" "Tank room"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "576.000000 -960.000000 896.000000"
-"message" "tank room"
+"message" "Tank room"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "1856.000000 -704.000000 896.000000"
-"message" "hangar"
+"message" "Hangar"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "2240.000000 -1280.000000 896.000000"
-"message" "hangar"
+"message" "Hangar"
 "count" "1"
 }
 {
@@ -107447,13 +107447,13 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "1280.000000 -384.000000 704.000000"
-"message" "tank room"
+"message" "Tank room"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "608.000000 -320.000000 896.000000"
-"message" "tank room"
+"message" "Tank room"
 "count" "1"
 }
 {
@@ -109873,13 +109873,13 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "832.000000 -3584.000000 320.000000"
-"message" "twin tank room"
+"message" "Twin tank room"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "1608.000000 -3024.000000 192.000000"
-"message" "twin tank room"
+"message" "Twin tank room"
 "count" "4"
 }
 {
@@ -110388,7 +110388,7 @@ shared_ex/base1a
 {
 "classname" "target_location"
 "origin" "2560.000000 -2240.000000 768.000000"
-"message" "lift"
+"message" "Lift"
 "count" "1"
 }
 {
@@ -131248,13 +131248,13 @@ parpax_ex/base1d_nonsolid
 {
 "classname" "target_location"
 "origin" "1024.000000 -3328.000000 192.000000"
-"message" "twin tank room"
+"message" "Twin tank room"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "2560.000000 -2240.000000 256.000000"
-"message" "lift"
+"message" "Lift"
 "count" "4"
 }
 {
@@ -134399,25 +134399,25 @@ parpax_ex/base1d_nonsolid
 {
 "classname" "target_location"
 "origin" "1024.000000 -2912.000000 768.000000"
-"message" "elevators"
+"message" "Elevators"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "1024.000000 -2912.000000 256.000000"
-"message" "elevators"
+"message" "Elevators"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "2240.000000 -1888.000000 896.000000"
-"message" "strange machine"
+"message" "Strange machine"
 "count" "1"
 }
 {
 "classname" "target_location"
 "origin" "1720.000000 -2304.000000 192.000000"
-"message" "side storage"
+"message" "Side storage"
 "count" "4"
 }
 {
@@ -135492,7 +135492,7 @@ shared_exm/base1
 {
 "classname" "target_location"
 "origin" "384.000000 -3584.000000 880.000000"
-"message" "stairs"
+"message" "Stairs"
 "count" "1"
 }
 {
